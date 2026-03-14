@@ -1,2 +1,2 @@
-# hub_midias
-Ferramente de intregracao de midias.
+# Guidare
+Ferramente de intregracao de eventos.

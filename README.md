@@ -1,2 +1,2 @@
-# Onzy
-Ferramente de intregracao de eventos.
+# Vectra
+Ferramente de compartilhamento de tela e gaming.

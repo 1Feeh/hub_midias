@@ -1,0 +1,15 @@
+Vantagens:
+Facil instalação, Tudo já integrado
+Configuração Facil e rápida
+Usar base Moonlight mais solida
+Salva configurações em nuvem
+Suporte a Android TV e Chromecast
+Mapear gamepad com o input HID/Xinput
+
+Monetizavel:
+Controles personalizáveis (cosmético)
+Suporte a transmissão HDR
+Suporte a transmissão cores 4:4:4
+Troca de monitores em exibicao
+Simular gamepad com teclado
+Suporte a IOS

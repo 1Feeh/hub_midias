@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/App">
+    <file alias="qmldir">C:/Users/filip/Desktop/Vectra/src/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/App/qmldir</file>
+  </qresource>
+</RCC>
+

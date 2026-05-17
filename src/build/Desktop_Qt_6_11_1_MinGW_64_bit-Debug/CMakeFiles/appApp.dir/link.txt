@@ -1,0 +1,3 @@
+C:\Users\filip\Downloads\programas\qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\appApp.dir/objects.a
+C:\Users\filip\Downloads\programas\qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\appApp.dir/objects.a @CMakeFiles\appApp.dir\objects1.rsp
+C:\Users\filip\Downloads\programas\qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\appApp.dir/objects.a -Wl,--no-whole-archive -o appApp.exe -Wl,--out-implib,libappApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\appApp.dir\linkLibs.rsp

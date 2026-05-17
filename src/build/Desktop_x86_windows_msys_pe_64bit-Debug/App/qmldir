@@ -1,0 +1,7 @@
+module App
+typeinfo appApp.qmltypes
+prefer :/qt/qml/App/
+Login 254.0 Login.qml
+Home 254.0 Home.qml
+depends QtQuick
+

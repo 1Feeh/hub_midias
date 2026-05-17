@@ -1,0 +1,17 @@
+--bare
+-I
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug
+-I
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/App
+-I
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug
+-I
+C:/Qt/6.11.1/mingw_64/qml
+--resource
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/.qt/rcc/qmake_App.qrc
+--resource
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/.qt/rcc/appApp_raw_qml_0.qrc
+C:/Users/carlos/Downloads/App/Login.qml
+C:/Users/carlos/Downloads/App/Home.qml
+--json
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/appApp_qmllint.json

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/App/">
+    <file alias="Login.qml">C:/Users/filip/Desktop/Vectra/src/Login.qml</file>
+    <file alias="Home.qml">C:/Users/filip/Desktop/Vectra/src/Home.qml</file>
+  </qresource>
+</RCC>
+

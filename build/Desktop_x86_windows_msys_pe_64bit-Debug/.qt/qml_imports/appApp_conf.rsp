@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/carlos/Downloads/App
+-cmake-output
+-output-file
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/.qt/qml_imports/appApp_conf.cmake
+-importPath
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug
+-importPath
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/App
+-importPath
+C:/Qt/6.11.1/mingw_64/qml
+-qrcFiles
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/.qt/rcc/qmake_App.qrc
+C:/Users/carlos/Downloads/App/build/Desktop_x86_windows_msys_pe_64bit-Debug/.qt/rcc/appApp_raw_qml_0.qrc

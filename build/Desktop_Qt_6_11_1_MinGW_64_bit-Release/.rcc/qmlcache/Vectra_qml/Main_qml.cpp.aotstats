@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "C:/Users/filip/Desktop/Vectra/qml/Main.qml"
+                }
+            ],
+            "moduleId": "Vectra(Vectra)"
+        }
+    ]
+}

@@ -12,11 +12,14 @@ qt_add_executable(Vectra
     src/main.cpp
 )
 
+# 5. Configura explicitamente o Colors.qml como um Singleton no CMake
+set_source_files_properties(qml/Colors.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
+
 qt_add_qml_module(Vectra
     URI Vectra
     QML_FILES
         qml/Colors.qml
-        qml/Main.qml
+
         qml/Login.qml
         qml/Home.qml
     RESOURCES
@@ -54,9 +57,6 @@ qt_add_qml_module(Vectra
 	assets/icons/Vector.png
 	assets/icons/Xvermelho.png
 )
-
-# 5. Configura explicitamente o Colors.qml como um Singleton no CMake
-set_source_files_properties(Colors.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

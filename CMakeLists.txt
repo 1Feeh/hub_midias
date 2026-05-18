@@ -19,7 +19,6 @@ qt_add_qml_module(Vectra
     URI Vectra
     QML_FILES
         qml/Colors.qml
-
         qml/Login.qml
         qml/Home.qml
     RESOURCES

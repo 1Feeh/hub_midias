@@ -87,8 +87,7 @@
 				7,
 				8,
 				9,
-				10,
-				11
+				10
 			]
 		}
 	],
@@ -128,12 +127,6 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Main_qml.cpp.rule",
 			"sourceGroupIndex" : 1
 		},
 		{

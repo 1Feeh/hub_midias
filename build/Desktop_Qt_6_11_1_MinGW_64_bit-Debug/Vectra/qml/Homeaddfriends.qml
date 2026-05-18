@@ -111,7 +111,7 @@ Window {
                     // Card do convite que chegou para você
                     Rectangle {
                         id: cardConviteRecebido
-                        Layout.fillWidth: true; height: 75; radius: 10
+                        Layout.fillWidth: true; height: 65; radius: 10
                         color: sidebar.activeCard === 1 ? "#468bf7" : "#151f2e"
                         visible: !windowRoot.fulaninhoAceito && !windowRoot.fulaninhoRecusado
 
@@ -128,7 +128,6 @@ Window {
                                 spacing: 2
                                 Text { text: "Fulaninho"; color: "white"; font.bold: true; font.pixelSize: 14 }
                                 Text { text: "ID: 123456789"; color: sidebar.activeCard === 1 ? "#e2e8f0" : "#718096"; font.pixelSize: 11 }
-                                Text { text: "Mobile: Samsung"; color: sidebar.activeCard === 1 ? "white" : "#a0aec0"; font.pixelSize: 12; Layout.topMargin: 4 }
                             }
 
                             Item { Layout.fillWidth: true }
@@ -178,10 +177,10 @@ Window {
                         visible: windowRoot.conviteEnviado
                     }
 
-                    // Card de convite enviado (Usa Xvermelho.png para cancelar)
+                    // Card de convite enviado (Com o status curto "Enviado...")
                     Rectangle {
                         id: cardConviteEnviado
-                        Layout.fillWidth: true; height: 75; radius: 10
+                        Layout.fillWidth: true; height: 65; radius: 10
                         color: sidebar.activeCard === 4 ? "#468bf7" : "#151f2e"
                         visible: windowRoot.conviteEnviado
 
@@ -197,8 +196,13 @@ Window {
                             ColumnLayout {
                                 spacing: 2
                                 Text { text: "Clone Encontrado"; color: "white"; font.bold: true; font.pixelSize: 14 }
-                                Text { text: "ID: " + searchInput.text; color: sidebar.activeCard === 4 ? "#e2e8f0" : "#718096"; font.pixelSize: 11 }
-                                Text { text: "Aguardando resposta..."; color: "#eab308"; font.pixelSize: 12; Layout.topMargin: 4; font.italic: true }
+
+                                // Linha com ID + Status modificado para apenas "Enviado..."
+                                RowLayout {
+                                    spacing: 8
+                                    Text { text: "ID: " + searchInput.text; color: sidebar.activeCard === 4 ? "#e2e8f0" : "#718096"; font.pixelSize: 11 }
+                                    Text { text: "• Enviado..."; color: "#eab308"; font.pixelSize: 11; font.italic: true }
+                                }
                             }
 
                             Item { Layout.fillWidth: true }
@@ -236,7 +240,7 @@ Window {
                     // Fulaninho promovido a amigo
                     Rectangle {
                         id: cardFulaninhoAceito
-                        Layout.fillWidth: true; height: 75; radius: 10
+                        Layout.fillWidth: true; height: 65; radius: 10
                         color: sidebar.activeCard === 3 ? "#468bf7" : "#151f2e"
                         visible: windowRoot.fulaninhoAceito
 
@@ -250,7 +254,6 @@ Window {
                                 spacing: 2
                                 Text { text: "Fulaninho"; color: "white"; font.bold: true; font.pixelSize: 14 }
                                 Text { text: "ID: 123456789"; color: sidebar.activeCard === 3 ? "#e2e8f0" : "#718096"; font.pixelSize: 11 }
-                                Text { text: "Mobile: Samsung"; color: sidebar.activeCard === 3 ? "white" : "#a0aec0"; font.pixelSize: 12; Layout.topMargin: 4 }
                             }
                             Item { Layout.fillWidth: true }
 
@@ -269,7 +272,7 @@ Window {
                     // Amigo Fixo - Fulaninho 2
                     Rectangle {
                         id: cardAmigoFixo
-                        Layout.fillWidth: true; height: 75; radius: 10
+                        Layout.fillWidth: true; height: 65; radius: 10
                         color: sidebar.activeCard === 2 ? "#468bf7" : "#151f2e"
                         visible: !windowRoot.fulaninho2Removido
 
@@ -283,7 +286,6 @@ Window {
                                 spacing: 2
                                 Text { text: "Fulaninho 2"; color: "white"; font.bold: true; font.pixelSize: 14 }
                                 Text { text: "ID: 123456789"; color: sidebar.activeCard === 2 ? "#e2e8f0" : "#718096"; font.pixelSize: 11 }
-                                Text { text: "Desktop: PcFulaninho"; color: sidebar.activeCard === 2 ? "white" : "#a0aec0"; font.pixelSize: 12; Layout.topMargin: 4 }
                             }
                             Item { Layout.fillWidth: true }
 
@@ -310,7 +312,6 @@ Window {
                 id: mainContent
                 Layout.fillWidth: true
                 Layout.fillHeight: parent
-                // MODIFICADO: Agora usa sua cor personalizada cadus_blue!
                 color: windowRoot.cadus_blue
 
                 ColumnLayout {

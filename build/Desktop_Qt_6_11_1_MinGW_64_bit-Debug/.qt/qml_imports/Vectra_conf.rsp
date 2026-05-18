@@ -1,0 +1,16 @@
+-rootPath
+C:/Users/carlos/Downloads/Vectra-feeh
+-cmake-output
+-output-file
+C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/qml_imports/Vectra_conf.cmake
+-importPath
+C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug
+-importPath
+C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra
+-importPath
+C:/Qt/6.11.1/mingw_64/qml
+-qrcFiles
+C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc
+C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc
+C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc
+C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc

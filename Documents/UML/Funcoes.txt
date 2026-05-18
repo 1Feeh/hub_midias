@@ -1,0 +1,13 @@
+-Customização de gamepad (cosmético) *nenhum
+-Gamepad na tela *Moonlight
+-Wake on lan integrado *nenhum
+-Chat de texto integrado *nenhum
+
+-Simular mouse com controle (gamepad) especialmente no android tv *Talvez Moonlight
+-Simular gamepad no celular para a tv *Talvez Moonlight
+-Instalador conjunto Cliete/servidor
+-Interface facilitada estilo
+-Integrar vpn no App cliente
+-Controle dividido (duas pessoas no mesmo celular)
+
+-Simular gamepad com teclado *Parsec

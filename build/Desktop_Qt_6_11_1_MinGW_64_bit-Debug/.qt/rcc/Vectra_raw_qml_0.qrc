@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/Vectra/">
+    <file alias="qml/Colors.qml">C:/Users/carlos/Downloads/Vectra-feeh/qml/Colors.qml</file>
+    <file alias="qml/Login.qml">C:/Users/carlos/Downloads/Vectra-feeh/qml/Login.qml</file>
+    <file alias="qml/Home.qml">C:/Users/carlos/Downloads/Vectra-feeh/qml/Home.qml</file>
+    <file alias="qml/Homeaddfriends.qml">C:/Users/carlos/Downloads/Vectra-feeh/qml/Homeaddfriends.qml</file>
+  </qresource>
+</RCC>
+

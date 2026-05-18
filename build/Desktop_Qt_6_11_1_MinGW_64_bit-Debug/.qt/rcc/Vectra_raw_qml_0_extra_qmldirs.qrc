@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Vectra/">
+    <file alias="qml/qmldir">C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qml/qmldir</file>
+  </qresource>
+</RCC>
+

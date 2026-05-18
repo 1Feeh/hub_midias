@@ -1,0 +1,39 @@
+<RCC>
+  <qresource prefix="/qt/qml/Vectra/">
+    <file alias="assets/icons/assistant_on_hub_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/assistant_on_hub_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/adobe-express-qr-code1.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/adobe-express-qr-code1.png</file>
+    <file alias="assets/icons/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/chat_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/chat_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/check_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/check_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/close_fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/close_fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/correto.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/correto.png</file>
+    <file alias="assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/display_settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/display_settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/Email.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/Email.png</file>
+    <file alias="assets/icons/fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/game_button_l_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/game_button_l_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/game_button_r_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/game_button_r_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/game_trigger_left_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/game_trigger_left_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/keyboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/keyboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/lan_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/lan_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/Logout.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/Logout.png</file>
+    <file alias="assets/icons/logout_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/logout_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/manage_accounts_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/manage_accounts_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/mouse_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/mouse_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/OlhoPassword.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/OlhoPassword.png</file>
+    <file alias="assets/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/power_settings_new_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/power_settings_new_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/stadia_controller_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/stadia_controller_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/toggle_on_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/toggle_on_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/translate_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/translate_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/undo_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/undo_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file alias="assets/icons/Vector.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/Vector.png</file>
+    <file alias="assets/icons/Xvermelho.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/Xvermelho.png</file>
+    <file alias="assets/icons/Recusaramizade.png">C:/Users/carlos/Downloads/Vectra-feeh/assets/icons/Recusaramizade.png</file>
+  </qresource>
+</RCC>
+

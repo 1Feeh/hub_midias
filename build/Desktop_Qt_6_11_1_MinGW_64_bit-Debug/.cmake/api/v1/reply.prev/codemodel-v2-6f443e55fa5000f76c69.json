@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8e23bb3ec6c586679681.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Vectra",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra-Debug-35221493cf67c0f88f05.json",
+					"name" : "Vectra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_autogen-Debug-b330c1e1d961d14804ee.json",
+					"name" : "Vectra_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_autogen_timestamp_deps-Debug-8dbc8641bfa8ed11abf3.json",
+					"name" : "Vectra_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_copy_qml-Debug-812b554a6c2929ad4920.json",
+					"name" : "Vectra_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_copy_res-Debug-bf8f2ea5fe565e77727b.json",
+					"name" : "Vectra_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_qmlimportscan-Debug-145de77503dbb68ea5c0.json",
+					"name" : "Vectra_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_qmllint-Debug-65c16a230f3a99bd827c.json",
+					"name" : "Vectra_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_qmllint_json-Debug-6ac6fb015f5ba80d0e9d.json",
+					"name" : "Vectra_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_qmllint_module-Debug-f32bebbeec04899951db.json",
+					"name" : "Vectra_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vectra_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vectra_qmltyperegistration-Debug-14fb6949c7c69dbe21fa.json",
+					"name" : "Vectra_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-2451709db9bf138b7593.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-720c272e5a679cd3364a.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-cb364cfe3e452eaf6d68.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-ade2b6d3ac4061a8cdfd.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-0a11883921dac821fd24.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-992300b84eaf8d98b190.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3704a2574bea88d98790.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-81cd13e6675f6c4129f0.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_Vectra_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_Vectra_aotstats_target-Debug-75f2e3b924f1ec3f3a0a.json",
+					"name" : "module_Vectra_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/carlos/Downloads/Vectra-feeh/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/carlos/Downloads/Vectra-feeh"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

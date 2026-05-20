@@ -551,6 +551,126 @@ build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Colors_qml
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.s
 
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.i: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.i
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.s: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.s
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.i: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.i
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.s: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.s
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.i: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.i
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.s: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.s
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.i: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.i
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.s: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.s
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.i: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.i
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.s: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.s
+
 build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj
 .PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.obj
 
@@ -574,6 +694,30 @@ build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.s
 build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.s
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.i: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.i
+
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.s: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.s
 
 build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj
 .PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.obj
@@ -720,9 +864,27 @@ help:
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Colors_qml.obj
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Colors_qml.i
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Colors_qml.s
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.obj
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.i
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.s
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.obj
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.i
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.s
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.obj
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.i
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.s
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.obj
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.i
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.s
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.obj
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.i
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.s
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.obj
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.i
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Home_qml.s
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.obj
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.i
+	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.s
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.obj
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.i
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.s

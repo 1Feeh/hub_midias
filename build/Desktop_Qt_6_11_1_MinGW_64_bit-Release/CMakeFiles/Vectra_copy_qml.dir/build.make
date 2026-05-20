@@ -71,6 +71,12 @@ CMakeFiles/Vectra_copy_qml: .qt/Vectra_qml.txt
 .qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
 .qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/Login.qml
 .qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/Home.qml
+.qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml
+.qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml
+.qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml
+.qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
+.qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
+.qt/Vectra_qml.txt: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying Vectra qml sources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/Vectra_qml.cmake -P C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

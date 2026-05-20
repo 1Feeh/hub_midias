@@ -5,7 +5,8 @@
 		"commands" : 
 		[
 			"add_custom_target",
-			"_qt_internal_deferred_aotstats_setup"
+			"_qt_internal_deferred_aotstats_setup",
+			"add_dependencies"
 		],
 		"files" : 
 		[
@@ -32,7 +33,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1387,
+				"line" : 1326,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1331,
 				"parent" : 2
 			}
 		]
@@ -40,14 +47,19 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "module_Vectra_aotstats_target::@6890427a1f51a3e7e1df"
+			"backtrace" : 4,
+			"id" : "Vectra_qmltyperegistration::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "Vectra_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-	"name" : "all_aotstats",
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "module_Vectra_aotstats_target::@6890427a1f51a3e7e1df",
+	"name" : "module_Vectra_aotstats_target",
 	"paths" : 
 	{
 		"build" : ".",
@@ -76,7 +88,11 @@
 				8,
 				9,
 				10,
-				11
+				11,
+				12,
+				13,
+				14,
+				15
 			]
 		}
 	],
@@ -85,19 +101,13 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/CMakeFiles/all_aotstats",
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/CMakeFiles/module_Vectra_aotstats_target",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/CMakeFiles/all_aotstats.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/all_aotstats.aotstats.rule",
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/CMakeFiles/module_Vectra_aotstats_target.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -110,6 +120,36 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.rule",
 			"sourceGroupIndex" : 1
 		},
 		{

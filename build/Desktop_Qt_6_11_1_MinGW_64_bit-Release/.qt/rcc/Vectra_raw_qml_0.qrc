@@ -3,6 +3,12 @@
     <file alias="qml/Colors.qml">C:/Users/filip/Desktop/Vectra/qml/Colors.qml</file>
     <file alias="qml/Login.qml">C:/Users/filip/Desktop/Vectra/qml/Login.qml</file>
     <file alias="qml/Home.qml">C:/Users/filip/Desktop/Vectra/qml/Home.qml</file>
+    <file alias="qml/ConfigAccount.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml</file>
+    <file alias="qml/ConfigConnection.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml</file>
+    <file alias="qml/ConfigGamepad.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml</file>
+    <file alias="qml/ConfigMacro.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml</file>
+    <file alias="qml/ConfigVideo.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml</file>
+    <file alias="qml/Homeaddfriends.qml">C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml</file>
   </qresource>
 </RCC>
 

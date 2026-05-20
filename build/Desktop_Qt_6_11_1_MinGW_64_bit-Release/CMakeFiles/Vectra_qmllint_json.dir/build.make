@@ -69,6 +69,12 @@ CMakeFiles/Vectra_qmllint_json: C:/Qt/6.11.1/mingw_64/bin/qmllint.exe
 CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
 CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Login.qml
 CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Home.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
 CMakeFiles/Vectra_qmllint_json: .rcc/qmllint/Vectra_json.rsp
 	cd /d C:\Users\filip\Desktop\Vectra && call C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmllint.exe @C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmllint/Vectra_json.rsp
 

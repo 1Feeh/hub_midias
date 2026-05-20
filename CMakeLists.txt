@@ -21,6 +21,12 @@ qt_add_qml_module(Vectra
         qml/Colors.qml
         qml/Login.qml
         qml/Home.qml
+	qml/ConfigAccount.qml
+	qml/ConfigConnection.qml
+	qml/ConfigGamepad.qml
+	qml/ConfigMacro.qml
+	qml/ConfigVideo.qml
+	qml/Homeaddfriends.qml
     RESOURCES
         assets/icons/assistant_on_hub_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
 	assets/icons/adobe-express-qr-code1.png

@@ -76,6 +76,7 @@ CMakeFiles/module_Vectra_aotstats_target: .rcc/qmlcache/module_Vectra.aotstats
 .rcc/qmlcache/module_Vectra.aotstats: .rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.aotstats
 .rcc/qmlcache/module_Vectra.aotstats: .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.aotstats
 .rcc/qmlcache/module_Vectra.aotstats: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.aotstats
+.rcc/qmlcache/module_Vectra.aotstats: .rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats
 .rcc/qmlcache/module_Vectra.aotstats: .rcc/qmlcache/module_Vectra.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_Vectra.aotstats"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlaotstats.exe aggregate C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/module_Vectra.aotstatslist C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/module_Vectra.aotstats
@@ -200,6 +201,21 @@ CMakeFiles/module_Vectra_aotstats_target: .rcc/qmlcache/module_Vectra.aotstats
 .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp.aotstats
 
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Init.qml
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/Vectra_qml/Init_qml.cpp, .rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Init.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Init_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Init.qml
+
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Init_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Init_qml.cpp.aotstats
+
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Login.qml
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: .qt/rcc/qmake_Vectra.qrc
@@ -208,7 +224,7 @@ CMakeFiles/module_Vectra_aotstats_target: .rcc/qmlcache/module_Vectra.aotstats
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: Vectra/Vectra.qmltypes
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/Vectra_qml/Login_qml.cpp, .rcc/qmlcache/Vectra_qml/Login_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/Vectra_qml/Login_qml.cpp, .rcc/qmlcache/Vectra_qml/Login_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Login.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmlcache/Vectra_qml/Login_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Login.qml
 
@@ -231,6 +247,8 @@ module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Home_qml.cpp
 module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Home_qml.cpp.aotstats
 module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp
 module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.aotstats
+module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Init_qml.cpp
+module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats
 module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Login_qml.cpp
 module_Vectra_aotstats_target: .rcc/qmlcache/Vectra_qml/Login_qml.cpp.aotstats
 module_Vectra_aotstats_target: .rcc/qmlcache/module_Vectra.aotstats

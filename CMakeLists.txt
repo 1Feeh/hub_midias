@@ -27,6 +27,7 @@ qt_add_qml_module(Vectra
 	qml/ConfigMacro.qml
 	qml/ConfigVideo.qml
 	qml/Homeaddfriends.qml
+	qml/Init.qml
     RESOURCES
         assets/icons/assistant_on_hub_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
 	assets/icons/adobe-express-qr-code1.png
@@ -61,6 +62,7 @@ qt_add_qml_module(Vectra
 	assets/icons/undo_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
 	assets/icons/Vector.png
 	assets/icons/Xvermelho.png
+
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

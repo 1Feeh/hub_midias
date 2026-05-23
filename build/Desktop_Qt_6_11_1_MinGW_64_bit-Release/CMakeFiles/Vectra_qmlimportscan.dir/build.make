@@ -81,6 +81,7 @@ CMakeFiles/Vectra_qmlimportscan: .qt/qml_imports/Vectra_build.cmake
 .qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
 .qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
 .qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Init.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for Vectra"
 	cd /d C:\Users\filip\Desktop\Vectra && call C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlimportscanner.exe @C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/qml_imports/Vectra_build.rsp
 

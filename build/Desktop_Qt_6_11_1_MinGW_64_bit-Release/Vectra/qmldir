@@ -10,5 +10,6 @@ ConfigGamepad 254.0 qml/ConfigGamepad.qml
 ConfigMacro 254.0 qml/ConfigMacro.qml
 ConfigVideo 254.0 qml/ConfigVideo.qml
 Homeaddfriends 254.0 qml/Homeaddfriends.qml
+Init 254.0 qml/Init.qml
 depends QtQuick
 

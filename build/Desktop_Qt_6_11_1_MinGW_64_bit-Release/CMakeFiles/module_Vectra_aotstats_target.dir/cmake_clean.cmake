@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   ".rcc/qmlcache/Vectra_qml/Home_qml.cpp.aotstats"
   ".rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp"
   ".rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.aotstats"
+  ".rcc/qmlcache/Vectra_qml/Init_qml.cpp"
+  ".rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats"
   ".rcc/qmlcache/Vectra_qml/Login_qml.cpp"
   ".rcc/qmlcache/Vectra_qml/Login_qml.cpp.aotstats"
   ".rcc/qmlcache/module_Vectra.aotstats"

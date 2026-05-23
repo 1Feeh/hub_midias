@@ -75,6 +75,7 @@ CMakeFiles/Vectra_qmllint_module: C:/Users/filip/Desktop/Vectra/qml/ConfigGamepa
 CMakeFiles/Vectra_qmllint_module: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
 CMakeFiles/Vectra_qmllint_module: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
 CMakeFiles/Vectra_qmllint_module: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
+CMakeFiles/Vectra_qmllint_module: C:/Users/filip/Desktop/Vectra/qml/Init.qml
 CMakeFiles/Vectra_qmllint_module: .rcc/qmllint/Vectra_module.rsp
 	cd /d C:\Users\filip\Desktop\Vectra && call C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Release\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmllint.exe @C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.rcc/qmllint/Vectra_module.rsp
 

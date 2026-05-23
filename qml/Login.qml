@@ -1,21 +1,11 @@
 import QtQuick
-import QtQuick.Window
 import QtQuick.Controls
 import QtQuick.Layouts
 import Vectra
 
-
-Window {
-    width: 800
-    height: 640
-    minimumWidth: 800
-    minimumHeight: 640
-    maximumWidth: 800
-    maximumHeight: 640
-    visible: true
-    title: "Vectra"
-    color: Colors.cadus_blue // Cor de fundo ajustada com base no protótipo
-
+Item {
+    anchors.fill: parent
+    property var stackView
     RowLayout {
         anchors.fill: parent
         spacing: 0
@@ -213,6 +203,7 @@ Window {
                         color: loginBtn.pressed ? "#2563eb" : "#5897f7"
                         radius: 10
                     }
+                    onClicked: stackView.push("Home.qml")
                 }
 
                 // Botão Create Account

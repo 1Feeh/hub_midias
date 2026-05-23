@@ -7,10 +7,18 @@
                     "entries": [
                         {
                             "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 7,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 17,
+                            "line": 10,
                             "message": ""
                         },
                         {
@@ -18,551 +26,55 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 25,
+                            "line": 15,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 35,
+                            "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 38,
+                            "line": 23,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 43,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 36,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 44,
+                            "line": 42,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 40,
+                            "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 50,
+                            "line": 48,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 60,
+                            "column": 64,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 51,
+                            "line": 49,
                             "message": "Cannot access value for name topTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 45,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 54,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 72,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 54,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 129,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 54,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 59,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 60,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 60,
-                            "message": "Cannot access value for name topTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 45,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 63,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 72,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 63,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 129,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 63,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 68,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 60,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 69,
-                            "message": "Cannot access value for name topTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 45,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 72,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 72,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 72,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 129,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 72,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 82,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 83,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 124,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 83,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 84,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 62,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 85,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 123,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 85,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 135,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 86,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 162,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 86,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 225,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 86,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 86,
-                            "durationMicroseconds": 0,
-                            "functionName": "bold",
-                            "line": 87,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 144,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 87,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 95,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 96,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 124,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 96,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 97,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 62,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 98,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 123,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 98,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 138,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 99,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 165,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 99,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 228,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 99,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 91,
-                            "durationMicroseconds": 0,
-                            "functionName": "bold",
-                            "line": 100,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 149,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 100,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 108,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 109,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 124,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 109,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 110,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 62,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 111,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 123,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 111,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 136,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 112,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 163,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 112,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 226,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 112,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 88,
-                            "durationMicroseconds": 0,
-                            "functionName": "bold",
-                            "line": 113,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 146,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 113,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 121,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 122,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 124,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 122,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 123,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 62,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 124,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 123,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 124,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 129,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 125,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 156,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 125,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 219,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 125,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 86,
-                            "durationMicroseconds": 0,
-                            "functionName": "bold",
-                            "line": 126,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 144,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 126,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 134,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 135,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 124,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 135,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 136,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 62,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 137,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 123,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 137,
-                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 49,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 140,
+                            "line": 52,
                             "message": ""
                         },
                         {
@@ -570,143 +82,647 @@
                             "column": 76,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 140,
+                            "line": 52,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 139,
+                            "column": 133,
                             "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 140,
+                            "functionName": "centerIn",
+                            "line": 52,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 88,
+                            "column": 44,
                             "durationMicroseconds": 0,
-                            "functionName": "bold",
-                            "line": 142,
+                            "functionName": "onClicked",
+                            "line": 57,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 64,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 58,
+                            "message": "Cannot access value for name topTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 49,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 61,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 61,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 133,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 61,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 66,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 64,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 67,
+                            "message": "Cannot access value for name topTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 49,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 70,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 70,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 133,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 70,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 80,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 81,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 81,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 146,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 142,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 39,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 161,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 39,
+                            "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 168,
+                            "line": 82,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 41,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 83,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 83,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 142,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 178,
+                            "line": 84,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 39,
+                            "column": 169,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 179,
+                            "line": 84,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
+                            "column": 232,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 176,
+                            "functionName": "verticalCenter",
+                            "line": 84,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 85,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 148,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 85,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 93,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 94,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 94,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 95,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
+                            "column": 66,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 187,
+                            "functionName": "left",
+                            "line": 96,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 160,
+                            "column": 127,
                             "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 204,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 198,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalAlignment",
-                            "line": 204,
+                            "functionName": "verticalCenter",
+                            "line": 96,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 145,
                             "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 211,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 183,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalAlignment",
-                            "line": 211,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 33,
-                            "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 227,
+                            "line": 97,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 31,
+                            "column": 172,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 228,
+                            "line": 97,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 235,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 97,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 95,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 98,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 153,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 98,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 106,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 107,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 107,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 108,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 109,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 109,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 143,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 110,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 170,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 110,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 233,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 110,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 92,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 111,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 150,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 111,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 119,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 120,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 120,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 121,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 122,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 122,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 136,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 123,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 163,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 123,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 226,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 123,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 124,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 148,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 124,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 132,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 133,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 133,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 134,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 135,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 135,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 53,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 138,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 80,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 138,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 143,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 138,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 92,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 140,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 150,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 140,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 159,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 166,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 45,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 176,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 177,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 174,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 185,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 164,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 202,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 202,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 202,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 149,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 209,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 187,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 209,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 37,
                             "durationMicroseconds": 0,
-                            "functionName": "bottom",
-                            "line": 222,
+                            "functionName": "sourceSize",
+                            "line": 225,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 36,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 226,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 220,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 223,
+                            "line": 221,
                             "message": ""
                         }
                     ],

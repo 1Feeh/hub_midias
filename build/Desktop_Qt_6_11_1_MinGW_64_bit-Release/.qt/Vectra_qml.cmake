@@ -20,6 +20,8 @@ set(src_and_dest_list
     "C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/Vectra/qml/ConfigVideo.qml"
     "C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml"
     "C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/Vectra/qml/Homeaddfriends.qml"
+    "C:/Users/filip/Desktop/Vectra/qml/Init.qml"
+    "C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/Vectra/qml/Init.qml"
 
 )
 set(timestamp_file "C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Release/.qt/Vectra_qml.txt")

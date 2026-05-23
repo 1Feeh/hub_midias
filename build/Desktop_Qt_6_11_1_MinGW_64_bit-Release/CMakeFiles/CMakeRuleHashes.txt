@@ -16,6 +16,7 @@ aa8905bd2c8cfd372b4a4400f820fb41 .rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp
 daf57b0cb5a82bbf21a8338b29bf25c3 .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp
 b5972b30a2dfc8fb47b906743cebe3cd .rcc/qmlcache/Vectra_qml/Home_qml.cpp
 739443d37ea56ad44459ff3f57c9412a .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp
+56ed6a299383101a662bd4083044dbb7 .rcc/qmlcache/Vectra_qml/Init_qml.cpp
 c6eaff7af525cbf43fd487bd54169183 .rcc/qmlcache/Vectra_qml/Login_qml.cpp
 2582662cadee313513a812ebdca1cf91 .rcc/qmlcache/Vectra_qml/Main_qml.cpp
 d990d5d7704bf8dc8e0ce5bae666ed27 .rcc/qmlcache/Vectra_qmlcache_loader.cpp

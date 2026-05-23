@@ -7,10 +7,10 @@
                     "entries": [
                         {
                             "codegenResult": 0,
-                            "column": 12,
-                            "durationMicroseconds": 3000,
-                            "functionName": "color",
-                            "line": 17,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 7,
                             "message": ""
                         },
                         {
@@ -18,15 +18,15 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 20,
+                            "line": 10,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 3000,
                             "functionName": "color",
-                            "line": 28,
+                            "line": 18,
                             "message": ""
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "fillHeight",
-                            "line": 27,
+                            "line": 17,
                             "message": ""
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 31,
+                            "line": 21,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 44,
+                            "line": 34,
                             "message": ""
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 59,
+                            "line": 49,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 67,
+                            "line": 57,
                             "message": ""
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 62,
+                            "line": 52,
                             "message": ""
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 83,
+                            "line": 73,
                             "message": ""
                         },
                         {
@@ -90,7 +90,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 106,
+                            "line": 96,
                             "message": ""
                         },
                         {
@@ -98,7 +98,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 120,
+                            "line": 110,
                             "message": ""
                         },
                         {
@@ -106,7 +106,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 129,
+                            "line": 119,
                             "message": ""
                         },
                         {
@@ -114,7 +114,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 130,
+                            "line": 120,
                             "message": ""
                         },
                         {
@@ -122,7 +122,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 132,
+                            "line": 122,
                             "message": ""
                         },
                         {
@@ -130,7 +130,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 146,
+                            "line": 136,
                             "message": ""
                         },
                         {
@@ -138,7 +138,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "echoMode",
-                            "line": 153,
+                            "line": 143,
                             "message": "Could not find property \"echoMode\"."
                         },
                         {
@@ -146,7 +146,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 161,
+                            "line": 151,
                             "message": ""
                         },
                         {
@@ -154,7 +154,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 170,
+                            "line": 160,
                             "message": ""
                         },
                         {
@@ -162,7 +162,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 171,
+                            "line": 161,
                             "message": ""
                         },
                         {
@@ -170,7 +170,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 173,
+                            "line": 163,
                             "message": ""
                         },
                         {
@@ -178,7 +178,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 184,
+                            "line": 174,
                             "message": ""
                         },
                         {
@@ -186,7 +186,7 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 188,
+                            "line": 178,
                             "message": ""
                         },
                         {
@@ -194,7 +194,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 189,
+                            "line": 179,
                             "message": ""
                         },
                         {
@@ -202,15 +202,23 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 187,
+                            "line": 177,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 206,
+                            "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 206,
+                            "line": 196,
                             "message": "Cannot load property text from (component in C:/Users/filip/Desktop/Vectra/qml/Login.qml)::parent with type QQuickItem."
                         },
                         {
@@ -218,7 +226,7 @@
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 208,
+                            "line": 198,
                             "message": ""
                         },
                         {
@@ -226,7 +234,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 209,
+                            "line": 199,
                             "message": ""
                         },
                         {
@@ -234,7 +242,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 213,
+                            "line": 203,
                             "message": "Cannot access value for name loginBtn"
                         },
                         {
@@ -242,7 +250,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 226,
+                            "line": 217,
                             "message": "Cannot load property text from (component in C:/Users/filip/Desktop/Vectra/qml/Login.qml)::parent with type QQuickItem."
                         },
                         {
@@ -250,7 +258,7 @@
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 228,
+                            "line": 219,
                             "message": ""
                         },
                         {
@@ -258,7 +266,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 229,
+                            "line": 220,
                             "message": ""
                         },
                         {
@@ -266,7 +274,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 233,
+                            "line": 224,
                             "message": "Cannot access value for name createAccountBtn"
                         },
                         {
@@ -274,7 +282,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 244,
+                            "line": 235,
                             "message": ""
                         },
                         {
@@ -282,7 +290,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "fillHeight",
-                            "line": 243,
+                            "line": 234,
                             "message": ""
                         },
                         {
@@ -290,7 +298,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 254,
+                            "line": 245,
                             "message": ""
                         },
                         {
@@ -298,7 +306,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 251,
+                            "line": 242,
                             "message": ""
                         }
                     ],

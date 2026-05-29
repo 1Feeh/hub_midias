@@ -1,441 +1,561 @@
-import QtQuick
-import QtQuick.Window
-import QtQuick.Controls
-import QtQuick.Layouts
-import Vectra
+import QtQuick 2.15
+import QtQuick.Effects
 
 Item {
-    id: windowRoot
     anchors.fill: parent
-
-    RowLayout {
+    Rectangle{
+        id: fundo
         anchors.fill: parent
-        spacing: 0
+        color: Colors.cadus_blue
 
-        // [ALTERAÇÃO 1] Apenas adicionada esta linha de controle para o Pop-up
-        property bool showLogoutDialog: false
+        //menu lateral principal ===================================
+        Rectangle{
+            id: lateral
+            anchors.left: fundo.left
+            width: 300
+            height: fundo.height
+            color: Colors.dark_blue
+            //Botoes principais ====================================
+            Row {
+                id: botoes
+                anchors.horizontalCenter: parent.horizontalCenter
+                spacing: 30
+                anchors.top: parent.top
+                anchors.topMargin: 10
+                property int selecionado: 0
 
-        Rectangle {
-            id: homeRoot
-            anchors.fill: parent
-            color: Colors.cadus_blue
-
-            RowLayout {
-                anchors.fill: parent
-                spacing: 0
-
-                // ==========================================
-                // 1. SIDEBAR (ESQUERDA)
-                // ==========================================
+                // desktop
                 Rectangle {
-                    id: sidebar
-                    Layout.preferredWidth: 260
-                    Layout.fillHeight: parent
-                    color: Colors.dark_blue
-
-                    property int activeTab: 0
-
-                    ColumnLayout {
+                    id: desktop
+                    width: 50
+                    height: 50
+                    radius: 8
+                    color: botoes.selecionado === 0 ? Colors.vibrance_blue : "transparent"
+                    Image {
+                        anchors.centerIn: parent
+                        width: 35
+                        height: 35
+                        sourceSize.width: 35
+                        sourceSize.height: 35
+                        source: "../assets/icons/desktop_windows.svg"
+                    }
+                    MouseArea {
                         anchors.fill: parent
-                        anchors.margins: 15
-                        spacing: 12
-
-                        // Linha de botões do topo centralizada e interativa
-                        RowLayout {
-                            Layout.fillWidth: true
-                            Layout.alignment: Qt.AlignHCenter
-                            spacing: 15
-
-                            Item { Layout.fillWidth: true }
-
-                            // Botão do Topo: Ícone do PC (Index 0)
-                            Rectangle {
-                                width: 45; height: 40; radius: 8
-                                color: sidebar.activeTab === 0 ? "#468bf7" : "transparent"
-
-                                Image {
-                                    source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    width: 24; height: 24
-                                    anchors.centerIn: parent
-                                    fillMode: Image.PreserveAspectFit
-                                }
-
-                                MouseArea {
-                                    anchors.fill: parent
-                                    cursorShape: Qt.PointingHandCursor
-                                    onClicked: sidebar.activeTab = 0
-                                }
-                            }
-
-                            // Botão do Topo: Ícone group_add (Index 1)
-                            Rectangle {
-                                width: 45; height: 40; radius: 8
-                                color: sidebar.activeTab === 1 ? "#468bf7" : "transparent"
-
-                                Image {
-                                    source: "../assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    width: 24
-                                    height: 24
-                                    anchors.centerIn: parent
-                                    fillMode: Image.PreserveAspectFit
-                                }
-
-                                MouseArea {
-                                    anchors.fill: parent
-                                    cursorShape: Qt.PointingHandCursor
-                                    onClicked: sidebar.activeTab = 1
-                                }
-                            }
-
-                            // Botão do Topo: Ícone settings (Index 2)
-                            Rectangle {
-                                width: 45; height: 40; radius: 8
-                                color: sidebar.activeTab === 2 ? "#468bf7" : "transparent"
-
-                                Image {
-                                    source: "../assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    width: 24
-                                    height: 24
-                                    anchors.centerIn: parent
-                                    fillMode: Image.PreserveAspectFit
-                                }
-
-                                MouseArea {
-                                    anchors.fill: parent
-                                    cursorShape: Qt.PointingHandCursor
-                                    onClicked: sidebar.activeTab = 2
-                                }
-                            }
-
-                            Item { Layout.fillWidth: true }
+                        onClicked: {
+                            botoes.selecionado = 0
+                            lateral.bara_lateral_itens = 0
                         }
-
-                        Item { Layout.fillWidth: true; height: 1 }
-                        Text { text: "Connected"; color: "#a0aec0"; font.pixelSize: 14; font.bold: true }
-                        Rectangle { Layout.fillWidth: true; height: 1; color: "#2d3748" }
-
-                        // Card: Fulaninho 1
-                        Rectangle {
-                            Layout.fillWidth: true; height: 75; radius: 10; color: Colors.vibrance_blue
-                            RowLayout {
-                                anchors.fill: parent; anchors.margins: 10; spacing: 10
-                                Image {
-                                    source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    Layout.preferredWidth: 24; Layout.preferredHeight: 24
-                                    fillMode: Image.PreserveAspectFit
-                                }
-                                ColumnLayout {
-                                    spacing: 2
-                                    Text { text: "Fulaninho"; color: "white"; font.bold: true; font.pixelSize: 14 }
-                                    Text { text: "ID: 123456789"; color: "#e2e8f0"; font.pixelSize: 11 }
-                                    Text { text: "Mobile: Samsung"; color: "white"; font.pixelSize: 12; Layout.topMargin: 4 }
-                                }
-
-                                Item { Layout.fillWidth: true }
-
-                                RowLayout {
-                                    spacing: 8
-
-                                    Rectangle {
-                                        Layout.preferredWidth: 24; Layout.preferredHeight: 24
-                                        color: "transparent"
-
-                                        Image {
-                                            source: "../assets/icons/correto.png"
-                                            anchors.fill: parent
-                                            fillMode: Image.PreserveAspectFit
-                                        }
-
-                                        MouseArea {
-                                            anchors.fill: parent
-                                            cursorShape: Qt.PointingHandCursor
-                                            onClicked: console.log("Aceito")
-                                        }
-                                    }
-
-                                    Rectangle {
-                                        Layout.preferredWidth: 24; Layout.preferredHeight: 24
-                                        color: "transparent"
-
-                                        Image {
-                                            source: "../assets/icons/Xvermelho.png"
-                                            anchors.fill: parent
-                                            fillMode: Image.PreserveAspectFit
-                                        }
-
-                                        MouseArea {
-                                            anchors.fill: parent
-                                            cursorShape: Qt.PointingHandCursor
-                                            onClicked: console.log("Recusado")
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                        // Card: Fulaninho 2
-                        Rectangle {
-                            Layout.fillWidth: true; height: 75; radius: 10; color: Colors.vibrance_blue
-                            RowLayout {
-                                anchors.fill: parent; anchors.margins: 10; spacing: 10
-                                Image {
-                                    source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    Layout.preferredWidth: 24; Layout.preferredHeight: 24
-                                    fillMode: Image.PreserveAspectFit
-                                }
-                                ColumnLayout {
-                                    spacing: 2
-                                    Text { text: "Fulaninho 2"; color: "white"; font.bold: true; font.pixelSize: 14 }
-                                    Text { text: "ID: 123456789"; color: "#e2e8f0"; font.pixelSize: 11 }
-                                    Text { text: "Desktop: PcFulaninho"; color: "white"; font.pixelSize: 12; Layout.topMargin: 4 }
-                                }
-
-                                Item { Layout.fillWidth: true }
-
-                                RowLayout {
-                                    spacing: 12
-
-                                    // [ALTERAÇÃO 2] Envolvido o Logout em um Rectangle/MouseArea para clique individual
-                                    Rectangle {
-                                        Layout.preferredWidth: 20; Layout.preferredHeight: 20
-                                        color: "transparent"
-
-                                        Image {
-                                            source: "../assets/icons/Logout.png"
-                                            anchors.fill: parent
-                                            fillMode: Image.PreserveAspectFit
-                                        }
-
-                                        MouseArea {
-                                            anchors.fill: parent
-                                            cursorShape: Qt.PointingHandCursor
-                                            onClicked: windowRoot.showLogoutDialog = true
-                                        }
-                                    }
-
-                                    ColumnLayout {
-                                        spacing: 3
-                                        Layout.alignment: Qt.AlignVCenter
-
-                                        Image {
-                                            source: "../assets/icons/stadia_controller_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                            Layout.preferredWidth: 14; Layout.preferredHeight: 14
-                                            fillMode: Image.PreserveAspectFit
-                                        }
-                                        Image {
-                                            source: "../assets/icons/keyboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                            Layout.preferredWidth: 14; Layout.preferredHeight: 14
-                                            fillMode: Image.PreserveAspectFit
-                                        }
-                                        Image {
-                                            source: "../assets/icons/mouse_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                            Layout.preferredWidth: 14; Layout.preferredHeight: 14
-                                            fillMode: Image.PreserveAspectFit
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                        Item { Layout.fillWidth: true; height: 5 }
-                        Text { text: "Your Host"; color: "#a0aec0"; font.pixelSize: 14; font.bold: true }
-                        Rectangle { Layout.fillWidth: true; height: 1; color: "#2d3748" }
-
-                        // Card: You
-                        Rectangle {
-                            Layout.fillWidth: true; height: 75; radius: 10; color: "#151f2e"
-                            RowLayout {
-                                anchors.fill: parent; anchors.margins: 10; spacing: 10
-                                Image {
-                                    source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    Layout.preferredWidth: 24; Layout.preferredHeight: 24
-                                    fillMode: Image.PreserveAspectFit
-                                }
-                                ColumnLayout {
-                                    spacing: 2
-                                    Text { text: "You"; color: "white"; font.bold: true; font.pixelSize: 14 }
-                                    Text { text: "ID: 000000000"; color: "#718096"; font.pixelSize: 11 }
-                                    Text { text: "Desktop: HomePc"; color: "#a0aec0"; font.pixelSize: 12; Layout.topMargin: 4 }
-                                }
-                            }
-                        }
-
-                        Item { Layout.fillWidth: true; height: 5 }
-                        Text { text: "Online Friends"; color: "#a0aec0"; font.pixelSize: 14; font.bold: true }
-                        Rectangle { Layout.fillWidth: true; height: 1; color: "#2d3748" }
-
-                        // Card: Fulaninho 3
-                        Rectangle {
-                            Layout.fillWidth: true; height: 75; radius: 10; color: "#151f2e"
-                            RowLayout {
-                                anchors.fill: parent; anchors.margins: 10; spacing: 10
-                                Image {
-                                    source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    Layout.preferredWidth: 24; Layout.preferredHeight: 24
-                                    fillMode: Image.PreserveAspectFit
-                                }
-                                ColumnLayout {
-                                    spacing: 2
-                                    Text { text: "Fulaninho 3"; color: "white"; font.bold: true; font.pixelSize: 14 }
-                                    Text { text: "ID: 123456789"; color: "#718096"; font.pixelSize: 11 }
-                                    Text { text: "Desktop: Pcfulano1"; color: "#a0aec0"; font.pixelSize: 12; Layout.topMargin: 4 }
-                                }
-                            }
-                        }
-
-                        Item { Layout.fillHeight: true }
+                        cursorShape: Qt.PointingHandCursor
                     }
                 }
-
-                // ==========================================
-                // 2. ÁREA DO CONTEÚDO PRINCIPAL (DIREITA)
-                // ==========================================
+                //friend add
                 Rectangle {
-                    id: mainContent
-                    Layout.fillWidth: true
-                    Layout.fillHeight: parent
-                    color: "transparent"
-
-                    ColumnLayout {
+                    id: friendadd
+                    width: 50
+                    height: 50
+                    radius: 8
+                    color: botoes.selecionado === 1 ? Colors.vibrance_blue : "transparent"
+                    Image {
+                        anchors.centerIn: parent
+                        width: 35
+                        height: 35
+                        sourceSize.width: 35
+                        sourceSize.height: 35
+                        source: "../assets/icons/friend_add.svg"
+                    }
+                    MouseArea {
                         anchors.fill: parent
-                        anchors.margins: 25
-                        spacing: 15
-
-                        RowLayout {
-                            Layout.fillWidth: true
-                            Item { Layout.fillWidth: true }
-
-                            Rectangle {
-                                Layout.preferredWidth: 220
-                                Layout.preferredHeight: 55
-                                color: "#0c131d"
-                                radius: 12
-
-                                RowLayout {
-                                    anchors.fill: parent
-                                    anchors.margins: 10
-                                    spacing: 12
-
-                                    Rectangle {
-                                        width: 35; height: 35; radius: 17.5
-                                        color: Colors.dark_blue
-                                        Image {
-                                            source: "../assets/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                            width: 20; height: 20
-                                            anchors.centerIn: parent
-                                            fillMode: Image.PreserveAspectFit
-                                        }
-                                    }
-
-                                    ColumnLayout {
-                                        spacing: 1
-                                        Text { text: "Dick Vigarista"; color: "white"; font.bold: true; font.pixelSize: 14 }
-                                        Text { text: "ID: 000000000"; color: "#718096"; font.pixelSize: 11 }
-                                    }
-                                }
-                            }
+                        onClicked: {
+                            botoes.selecionado = 1
+                            lateral.bara_lateral_itens = 1
                         }
+                        cursorShape: Qt.PointingHandCursor
+                    }
+                }
+                //setings
+                Rectangle {
+                    id: settings
+                    width: 50
+                    height: 50
+                    radius: 8
+                    color: botoes.selecionado === 2 ? Colors.vibrance_blue : "transparent"
+                    Image {
+                        anchors.centerIn: parent
+                        width: 35
+                        height: 35
+                        sourceSize.width: 35
+                        sourceSize.height: 35
+                        source: "../assets/icons/settings.svg"
+                    }
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: {
+                            botoes.selecionado = 2
+                            lateral.bara_lateral_itens = 2
+                        }
+                        cursorShape: Qt.PointingHandCursor
+                    }
+                }
+            }
+            //Conteudo que sera modificado na barra lateral ====================================
+            property int bara_lateral_itens: 0 // 0 , 1 , e 2
+            property int conf_selecionada: 0
+            Loader{
+                anchors.top: botoes.bottom
+                anchors.topMargin: 10
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.bottom: parent.bottom
+                sourceComponent: {
+                    if (lateral.bara_lateral_itens === 0) return column_desktop
+                    if (lateral.bara_lateral_itens === 1) return column_friends
+                    if (lateral.bara_lateral_itens === 2) return column_settings
+                    return null
+                }
+            }
+            Component {
+                //codigo settings
+                id: column_settings
 
-                        Rectangle {
-                            id: videoWrapper
-                            Layout.fillWidth: true
-                            Layout.fillHeight: true
-                            color: Colors.dark_blue
-                            radius: 12
-                            clip: true
-
-                            Rectangle {
-                                id: videoCanvas
-                                width: parent.width
-                                height: parent.width * (9 / 16)
-                                anchors.centerIn: parent
-                                color: "#000000"
-
-                                Component.onCompleted: {
-                                    if (height > parent.height) {
-                                        height = parent.height
-                                        width = height * (16 / 9)
-                                    }
-                                }
-
-                                /*Text {
-                                text: "V"
-                                font.pixelSize: parent.height * 0.4
-                                font.bold: true
-                                color: "#1d2d44"
-                                anchors.centerIn: parent
-                            }
-
-                            Text {
-                                text: "KVG"
-                                font.pixelSize: 20
-                                font.bold: true
-                                color: "white"
-                                opacity: 0.25
-                                anchors.right: parent.right
-                                anchors.bottom: parent.bottom
-                                anchors.rightMargin: 15
-                                anchors.bottomMargin: 15
-                            }*/
-                            }
+                Column{
+                    id: colula
+                    anchors.fill: parent
+                    spacing: 5
+                    //config video
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 80
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        radius: 20
+                        color: Colors.medium_blue
+                        Image {
+                            id: image_video
+                            width: 35
+                            height: 35
+                            sourceSize.width: 35
+                            sourceSize.height: 35
+                            anchors.left: parent.left
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.leftMargin: 10
+                            source: "../assets/icons/display_settings.svg"
+                        }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: image_video.right
+                            anchors.leftMargin: 10
+                            text: qsTr("Video")
+                            color: "white"; font.pixelSize: 25; font.bold: false;
+                        }
+                        MouseArea{
+                            anchors.fill: parent
+                            onClicked: lateral.conf_selecionada = 0
+                            cursorShape: Qt.PointingHandCursor
+                        }
+                    }
+                    //config coneccao
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 80
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        radius: 20
+                        color: Colors.medium_blue
+                        Image {
+                            id: image_coneccao
+                            width: 35
+                            height: 35
+                            sourceSize.width: 35
+                            sourceSize.height: 35
+                            anchors.left: parent.left
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.leftMargin: 10
+                            source: "../assets/icons/conection.svg"
+                        }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: image_coneccao.right
+                            anchors.leftMargin: 10
+                            text: qsTr("Conecção")
+                            color: "white"; font.pixelSize: 25; font.bold: false;
+                        }
+                        MouseArea{
+                            anchors.fill: parent
+                            onClicked: lateral.conf_selecionada = 1
+                            cursorShape: Qt.PointingHandCursor
+                        }
+                    }
+                    //config gamepad
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 80
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        radius: 20
+                        color: Colors.medium_blue
+                        Image {
+                            id: image_gamepad
+                            width: 35
+                            height: 35
+                            sourceSize.width: 35
+                            sourceSize.height: 35
+                            anchors.left: parent.left
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.leftMargin: 10
+                            source: "../assets/icons/conf_control.svg"
+                        }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: image_gamepad.right
+                            anchors.leftMargin: 10
+                            text: qsTr("Gamepad")
+                            color: "white"; font.pixelSize: 25; font.bold: false;
+                        }
+                        MouseArea{
+                            anchors.fill: parent
+                            onClicked: lateral.conf_selecionada = 2
+                            cursorShape: Qt.PointingHandCursor
+                        }
+                    }
+                    //config macro
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 80
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        radius: 20
+                        color: Colors.medium_blue
+                        Image {
+                            id: image_macro
+                            width: 35
+                            height: 35
+                            sourceSize.width: 35
+                            sourceSize.height: 35
+                            anchors.left: parent.left
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.leftMargin: 10
+                            source: "../assets/icons/keyboard.svg"
+                        }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: image_macro.right
+                            anchors.leftMargin: 10
+                            text: qsTr("Atalhos")
+                            color: "white"; font.pixelSize: 25; font.bold: false;
+                        }
+                        MouseArea{
+                            anchors.fill: parent
+                            onClicked: lateral.conf_selecionada = 3
+                            cursorShape: Qt.PointingHandCursor
+                        }
+                    }
+                    //config conta
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 80
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        radius: 20
+                        color: Colors.medium_blue
+                        Image {
+                            id: image_conta
+                            width: 35
+                            height: 35
+                            sourceSize.width: 35
+                            sourceSize.height: 35
+                            anchors.left: parent.left
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.leftMargin: 10
+                            source: "../assets/icons/person.svg"
+                        }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: image_conta.right
+                            anchors.leftMargin: 10
+                            text: qsTr("Conta")
+                            color: "white"; font.pixelSize: 25; font.bold: false;
+                        }
+                        MouseArea{
+                            anchors.fill: parent
+                            onClicked: lateral.conf_selecionada = 4
+                            cursorShape: Qt.PointingHandCursor
                         }
                     }
                 }
             }
+            Component {
+                //codigo friends
+                id: column_friends
+                Column{
+                    id: colula
+                    anchors.fill: parent
+                    spacing: 5
+                    Text {
+                        id: text_amigos
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: qsTr("Amigos")
+                        color: "white"; font.pixelSize: 20; font.bold: false;
+                    }
+                    Item { // espassador
+                        width: parent.width
+                        height: 10
+                    }
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 1
+                        color: "white"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                    }
 
-            // ==========================================
-            // 3. [ALTERAÇÃO 3] POP-UP DE DESCONEXÃO (DIALOG)
-            // Adicionado no final de forma isolada, sem alterar nada acima.
-            // ==========================================
-            Rectangle {
-                id: logoutDialogOverlay
-                anchors.fill: parent
-                color: "#CC000000"
-                visible: windowRoot.showLogoutDialog
-                z: 100
-
-                MouseArea { anchors.fill: parent; preventStealing: true }
-
-                Rectangle {
-                    width: 320; height: 160; color: "#1d2636"
-                    border.color: "#468bf7"; border.width: 1; radius: 15
-                    anchors.centerIn: parent
-
-                    ColumnLayout {
-                        anchors.fill: parent; anchors.margins: 20; spacing: 20
-
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 80
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        radius: 20
+                        color: Colors.medium_blue
                         Text {
-                            text: "Deseja desconectar?"
-                            color: "white"; font.bold: true; font.pixelSize: 18
-                            Layout.alignment: Qt.AlignHCenter
+                            id: nome_friend
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: parent.left
+                            anchors.leftMargin: 10
+                            text: "Fulano"
+                            color: "white"; font.pixelSize: 20; font.bold: true;
                         }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: parent.left
+                            anchors.top: nome_friend.bottom
+                            anchors.leftMargin: 10
+                            text: "ID: 1234567890"
+                            color: "white"; font.pixelSize: 10; font.bold: false;
+                        }
+                        Image {
+                            width: 25
+                            height: 25
+                            sourceSize.width: 25
+                            sourceSize.height: 25
+                            anchors.right: parent.right
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.rightMargin: 20
+                            source: "../assets/icons/del_friend.svg"
+                        }
+                    }
+                }
+            }
+            Component {
+                //codigo desktop
+                id: column_desktop
+                Column{
+                    id: colula
+                    anchors.fill: parent
+                    spacing: 10
+                    // textos e linhas conectados =========================================
+                    Text {
+                        id: conected
+                        text: qsTr("Conectados")
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        color: "white" ; font.pixelSize: 20; font.bold: false;
+                    }
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 1
+                        color: "white"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.topMargin: 5
+                    }
 
-                        RowLayout {
-                            spacing: 20; Layout.alignment: Qt.AlignHCenter
+                    // card de conexao ============================================================================================================
+                    Rectangle{
+                        property int card_info: 0 // conteudo a ser carregado cards #########################
+                        id: desktopcard
+                        width: parent.width-20
+                        height: 80
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        radius: 20
+                        color: Colors.medium_blue
+                        Image {
+                            id: imagedesktop
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: parent.left
+                            anchors.leftMargin: 10
+                            width: 35
+                            height: 35
+                            sourceSize.width: 35
+                            sourceSize.height: 35
+                            source: "../assets/icons/desktop_windows.svg"
+                        }
+                        Text {
+                            id: nome
+                            text: "Fulano"
+                            color: "white"; font.pixelSize: 20; font.bold: true;
+                            anchors.left: imagedesktop.right
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.verticalCenterOffset: -10 //ajusta vertical com base no parametro
+                        }
+                        Text {
+                            id: nomeid
+                            text: "ID: 1234567890"
+                            color: "white"; font.pixelSize: 10; font.bold: false;
+                            anchors.left: imagedesktop.right
+                            anchors.top: nome.bottom
+                        }
+                        //
+                        Loader{
+                            anchors.right: parent.right
+                            width: 120
+                            height: parent.height
+                            sourceComponent: {
+                                if (desktopcard.card_info === 0) return card_comp0
+                                if (desktopcard.card_info === 1) return card_comp1
+                                if (desktopcard.card_info === 2) return card_comp2
+                                return null
+                            }
+                        }
+                        Component {
+                            id: card_comp0
+                            //codigo do 0 aqui
+                            Item {
+                                anchors.right: parent.right
+                                width: 120
+                                height: parent.height
+                            }
+                        }
+                        Component {
+                            id: card_comp1
+                            //codigo do 1 aqui
+                            Item {
+                                anchors.right: parent.right
+                                width: 120
+                                height: parent.height
+                                Row{
+                                    anchors.verticalCenter: parent.verticalCenter
+                                    anchors.right: parent.right
+                                    Image {
+                                        id: button_yes
+                                        width: 25
+                                        height: 25
+                                        sourceSize.width: 25
+                                        sourceSize.height: 25
+                                        anchors.verticalCenter: parent.verticalCenter
+                                        anchors.right: button_no.left
+                                        anchors.rightMargin: 10
+                                        source: "../assets/icons/check_circle.svg"
+                                    }
 
-                            Rectangle {
-                                width: 100; height: 40; radius: 8; color: "#e53e3e"
-                                Text { text: "Sim"; color: "white"; anchors.centerIn: parent; font.bold: true }
-                                MouseArea {
-                                    anchors.fill: parent; cursorShape: Qt.PointingHandCursor
-                                    onClicked: {
-                                        console.log("Usuário desconectado!")
-                                        windowRoot.showLogoutDialog = false
+                                    MultiEffect { // efeitos do import QtQuick.Effects
+                                        source: button_yes
+                                        anchors.fill: button_yes
+                                        colorization: 1.0
+                                        colorizationColor: "green"
+                                    }
+                                    Image {
+                                        id: button_no
+                                        width: 25
+                                        height: 25
+                                        sourceSize.width: 25
+                                        sourceSize.height: 25
+                                        anchors.verticalCenter: parent.verticalCenter
+                                        anchors.right: parent.left
+                                        anchors.rightMargin: 10
+                                        source: "../assets/icons/cancelar.svg"
+                                    }
+
+                                    MultiEffect { // efeitos do import QtQuick.Effects
+                                        source: button_no
+                                        anchors.fill: button_no
+                                        colorization: 1.0
+                                        colorizationColor: "red"
                                     }
                                 }
                             }
+                        }
+                        Component {
+                            id: card_comp2
+                            //codigo do 2 aqui
+                            Item{
+                                anchors.right: parent.right
+                                width: 120
+                                height: parent.height
+                                Image {
+                                    id: logout
+                                    width: 25
+                                    height: 25
+                                    sourceSize.width: 25
+                                    sourceSize.height: 25
+                                    anchors.verticalCenter: parent.verticalCenter
+                                    anchors.right: column_disp.left
+                                    anchors.rightMargin: 10
+                                    source: "../assets/icons/logout.svg"
 
-                            Rectangle {
-                                width: 100; height: 40; radius: 8; color: "#4a5568"
-                                Text { text: "Não"; color: "white"; anchors.centerIn: parent; font.bold: true }
-                                MouseArea {
-                                    anchors.fill: parent; cursorShape: Qt.PointingHandCursor
-                                    onClicked: windowRoot.showLogoutDialog = false
+                                }
+                                MultiEffect { // efeitos do import QtQuick.Effects
+                                    source: logout
+                                    anchors.fill: logout
+                                    colorization: 1.0
+                                    colorizationColor: "yellow"
+                                }
+                                Column{
+                                    id: column_disp
+                                    anchors.right: parent.right
+                                    anchors.rightMargin: 15
+                                    anchors.verticalCenter: parent.verticalCenter
+                                    spacing: 2
+
+                                    Image {
+                                        width: 25
+                                        height: 25
+                                        sourceSize.width: 25
+                                        sourceSize.height: 25
+                                        source: "../assets/icons/controller.svg"
+                                    }
+                                    Image {
+                                        width: 25
+                                        height: 25
+                                        sourceSize.width: 25
+                                        sourceSize.height: 25
+                                        source: "../assets/icons/keyboard.svg"
+                                    }
+                                    Image {
+                                        width: 25
+                                        height: 25
+                                        sourceSize.width: 25
+                                        sourceSize.height: 25
+                                        source: "../assets/icons/mouse.svg"
+                                    }
                                 }
                             }
                         }
                     }
+
+                    // textos e linhas Hosts disponiveis ================================================================================================
+                    Text {
+                        id: hosts
+                        text: qsTr("Hosts disponiveis")
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        color: "white" ; font.pixelSize: 20; font.bold: false;
+                    }
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 1
+                        color: "white"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.topMargin: 5
+                    }
                 }
+            }
+        }
+        //Area da direta de conteudos ===============================================================
+        Loader{
+            anchors.top: fundo.top
+            //anchors.topMargin: 10
+            anchors.left: lateral.right
+            anchors.right: parent.right
+            anchors.bottom: parent.bottom
+            source: {
+                if (botoes.selecionado === 0) return "../qml/HomeScreen.qml"
+                if (botoes.selecionado === 1) return "../qml/Friends.qml"
+                //config janelas
+                if (lateral.conf_selecionada === 0) return "../qml/CVideo.qml"
+                if (lateral.conf_selecionada === 1) return "../qml/CConnection.qml"
+                if (lateral.conf_selecionada === 2) return "../qml/CGamepad.qml"
+                if (lateral.conf_selecionada === 3) return "../qml/CMacro.qml"
+                if (lateral.conf_selecionada === 4) return "../qml/CAccount.qml"
+                return ""
             }
         }
     }

@@ -1,15 +1,16 @@
 <RCC>
   <qresource prefix="/qt/qml/Vectra/">
-    <file alias="qml/Colors.qml">C:/Users/filip/Desktop/Vectra/qml/Colors.qml</file>
     <file alias="qml/Login.qml">C:/Users/filip/Desktop/Vectra/qml/Login.qml</file>
     <file alias="qml/Home.qml">C:/Users/filip/Desktop/Vectra/qml/Home.qml</file>
-    <file alias="qml/ConfigAccount.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml</file>
-    <file alias="qml/ConfigConnection.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml</file>
-    <file alias="qml/ConfigGamepad.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml</file>
-    <file alias="qml/ConfigMacro.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml</file>
-    <file alias="qml/ConfigVideo.qml">C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml</file>
-    <file alias="qml/Homeaddfriends.qml">C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml</file>
+    <file alias="qml/CAccount.qml">C:/Users/filip/Desktop/Vectra/qml/CAccount.qml</file>
+    <file alias="qml/CConnection.qml">C:/Users/filip/Desktop/Vectra/qml/CConnection.qml</file>
+    <file alias="qml/CGamepad.qml">C:/Users/filip/Desktop/Vectra/qml/CGamepad.qml</file>
+    <file alias="qml/CMacro.qml">C:/Users/filip/Desktop/Vectra/qml/CMacro.qml</file>
+    <file alias="qml/CVideo.qml">C:/Users/filip/Desktop/Vectra/qml/CVideo.qml</file>
+    <file alias="qml/Friends.qml">C:/Users/filip/Desktop/Vectra/qml/Friends.qml</file>
     <file alias="qml/Init.qml">C:/Users/filip/Desktop/Vectra/qml/Init.qml</file>
+    <file alias="qml/Colors.qml">C:/Users/filip/Desktop/Vectra/qml/Colors.qml</file>
+    <file alias="qml/HomeScreen.qml">C:/Users/filip/Desktop/Vectra/qml/HomeScreen.qml</file>
   </qresource>
 </RCC>
 

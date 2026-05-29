@@ -106,21 +106,6 @@ Vectra/Vectra.qmltypes: vectra_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/Vectra_qmlcache_loader.cpp"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --resource-name qmlcache_Vectra -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp @C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml_loader_file_list.rsp
 
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/qmake_Vectra.qrc
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: Vectra/Vectra.qmltypes
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/Vectra_qml/Colors_qml.cpp, .rcc/qmlcache/Vectra_qml/Colors_qml.cpp.aotstats"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Colors.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Colors.qml
-
-.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Colors_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Colors_qml.cpp.aotstats
-
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Login.qml
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: .qt/rcc/qmake_Vectra.qrc
@@ -129,7 +114,7 @@ Vectra/Vectra.qmltypes: vectra_qmltyperegistrations.cpp
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: Vectra/Vectra.qmltypes
 .rcc/qmlcache/Vectra_qml/Login_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/Vectra_qml/Login_qml.cpp, .rcc/qmlcache/Vectra_qml/Login_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/Vectra_qml/Login_qml.cpp, .rcc/qmlcache/Vectra_qml/Login_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Login.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Login.qml
 
@@ -144,181 +129,220 @@ Vectra/Vectra.qmltypes: vectra_qmltyperegistrations.cpp
 .rcc/qmlcache/Vectra_qml/Home_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
 .rcc/qmlcache/Vectra_qml/Home_qml.cpp: Vectra/Vectra.qmltypes
 .rcc/qmlcache/Vectra_qml/Home_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/Vectra_qml/Home_qml.cpp, .rcc/qmlcache/Vectra_qml/Home_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/Vectra_qml/Home_qml.cpp, .rcc/qmlcache/Vectra_qml/Home_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Home.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Home.qml
 
 .rcc/qmlcache/Vectra_qml/Home_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Home_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Home_qml.cpp.aotstats
 
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: .qt/rcc/qmake_Vectra.qrc
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: Vectra/Vectra.qmltypes
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp, .rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.aotstats"
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/CAccount.qml
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/Vectra_qml/CAccount_qml.cpp, .rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/ConfigAccount.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/CAccount.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp C:/Users/filip/Desktop/Vectra/qml/CAccount.qml
 
-.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp.aotstats
+.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/CAccount_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\CAccount_qml.cpp.aotstats
 
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: .qt/rcc/qmake_Vectra.qrc
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: Vectra/Vectra.qmltypes
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp, .rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.aotstats"
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/CConnection.qml
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/Vectra_qml/CConnection_qml.cpp, .rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/ConfigConnection.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/CConnection.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp C:/Users/filip/Desktop/Vectra/qml/CConnection.qml
 
-.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp.aotstats
+.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/CConnection_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\CConnection_qml.cpp.aotstats
 
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: .qt/rcc/qmake_Vectra.qrc
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: Vectra/Vectra.qmltypes
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp, .rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.aotstats"
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/CGamepad.qml
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp, .rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/ConfigGamepad.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/CGamepad.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp C:/Users/filip/Desktop/Vectra/qml/CGamepad.qml
 
-.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp.aotstats
+.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp.aotstats
 
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: .qt/rcc/qmake_Vectra.qrc
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: Vectra/Vectra.qmltypes
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp, .rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.aotstats"
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/CMacro.qml
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/Vectra_qml/CMacro_qml.cpp, .rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/ConfigMacro.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/CMacro.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp C:/Users/filip/Desktop/Vectra/qml/CMacro.qml
 
-.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp.aotstats
+.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/CMacro_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\CMacro_qml.cpp.aotstats
 
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: .qt/rcc/qmake_Vectra.qrc
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: Vectra/Vectra.qmltypes
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp, .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.aotstats"
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/CVideo.qml
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/Vectra_qml/CVideo_qml.cpp, .rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/ConfigVideo.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/CVideo.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp C:/Users/filip/Desktop/Vectra/qml/CVideo.qml
 
-.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp.aotstats
+.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/CVideo_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\CVideo_qml.cpp.aotstats
 
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: .qt/rcc/qmake_Vectra.qrc
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: Vectra/Vectra.qmltypes
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp: Vectra/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp, .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.aotstats"
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Friends.qml
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/Vectra_qml/Friends_qml.cpp, .rcc/qmlcache/Vectra_qml/Friends_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Homeaddfriends.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Friends.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Friends.qml
 
-.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp.aotstats
+.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Friends_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Friends_qml.cpp.aotstats
 
-.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Init.qml
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/Vectra_qml/Init_qml.cpp, .rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Init.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Init.qml
+
+.rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Init_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Init_qml.cpp.aotstats
+
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating .rcc/qmlcache/Vectra_qml/Colors_qml.cpp, .rcc/qmlcache/Vectra_qml/Colors_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/Colors.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp C:/Users/filip/Desktop/Vectra/qml/Colors.qml
+
+.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/Colors_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\Colors_qml.cpp.aotstats
+
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: C:/Users/filip/Desktop/Vectra/qml/HomeScreen.qml
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: .qt/rcc/qmake_Vectra.qrc
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: .qt/rcc/Vectra_raw_res_0.qrc
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: Vectra/Vectra.qmltypes
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp: Vectra/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating .rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp, .rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Vectra/qml/HomeScreen.qml -I C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I C:/Qt/6.11.1/mingw_64/qml -i C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra/qmldir --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Vectra.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --resource C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Vectra(Vectra) -o C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp C:/Users/filip/Desktop/Vectra/qml/HomeScreen.qml
+
+.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.aotstats: .rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp.aotstats
+
 .qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/Login.qml
 .qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/Home.qml
-.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml
-.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml
-.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml
-.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
-.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
-.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/CAccount.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/CConnection.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/CGamepad.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/CMacro.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/CVideo.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/Friends.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/Init.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
+.qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Users/filip/Desktop/Vectra/qml/HomeScreen.qml
 .qt/rcc/qrc_Vectra_raw_qml_0.cpp: .qt/rcc/Vectra_raw_qml_0.qrc
 .qt/rcc/qrc_Vectra_raw_qml_0.cpp: C:/Qt/6.11.1/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running rcc for resource Vectra_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running rcc for resource Vectra_raw_qml_0"
 	C:\Qt\6.11.1\mingw_64\bin\rcc.exe --output C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp --name Vectra_raw_qml_0 C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0.qrc --no-zstd
 
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/assistant_on_hub_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/adobe-express-qr-code1.png
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/chat_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/check_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/close_fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/correto.png
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/display_settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/Email.png
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/game_button_l_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/game_button_r_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/game_trigger_left_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/keyboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/lan_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/Logout.png
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/logout_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/manage_accounts_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/mouse_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/OlhoPassword.png
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/power_settings_new_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/stadia_controller_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/cancelar.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/chat.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/check_circle.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/close_fullscreen.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/conection.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/conf_control.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/control_map.png
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/controller.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/del_friend.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/desktop_windows.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/display_settings.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/eye.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/friend_add.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/fullscreen.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/home.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/keyboard.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/logout.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/mail.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/mouse.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/person.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/qrcode.png
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/search.svg
+.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/settings.svg
 .qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/toggle_on_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/translate_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/undo_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
 .qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/Vector.png
-.qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Users/filip/Desktop/Vectra/assets/icons/Xvermelho.png
 .qt/rcc/qrc_Vectra_raw_res_0.cpp: .qt/rcc/Vectra_raw_res_0.qrc
 .qt/rcc/qrc_Vectra_raw_res_0.cpp: C:/Qt/6.11.1/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running rcc for resource Vectra_raw_res_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running rcc for resource Vectra_raw_res_0"
 	C:\Qt\6.11.1\mingw_64\bin\rcc.exe --output C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp --name Vectra_raw_res_0 C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_res_0.qrc --no-zstd
 
 .qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp: Vectra/qml/qmldir
 .qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
 .qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp: C:/Qt/6.11.1/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running rcc for resource Vectra_raw_qml_0_extra_qmldirs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running rcc for resource Vectra_raw_qml_0_extra_qmldirs"
 	C:\Qt\6.11.1\mingw_64\bin\rcc.exe --output C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp --name Vectra_raw_qml_0_extra_qmldirs C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc --no-zstd
 
 Vectra_autogen/timestamp: C:/Qt/6.11.1/mingw_64/bin/moc.exe
 Vectra_autogen/timestamp: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Automatic MOC and UIC for target Vectra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Automatic MOC and UIC for target Vectra"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/Vectra_autogen.dir/AutogenInfo.json Debug
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra_autogen/timestamp
 
 meta_types/Vectra_json_file_list.txt: C:/Qt/6.11.1/mingw_64/bin/cmake_automoc_parser.exe
 meta_types/Vectra_json_file_list.txt: Vectra_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running AUTOMOC file extraction for target Vectra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Running AUTOMOC file extraction for target Vectra"
 	C:\Qt\6.11.1\mingw_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/Vectra_autogen.dir/ParseCache.txt --cmake-autogen-info-file C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/Vectra_autogen.dir/AutogenInfo.json --output-file-path C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/meta_types/Vectra_json_file_list.txt --timestamp-file-path C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/meta_types/Vectra_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Vectra_autogen/include
 
 meta_types/qt6vectra_metatypes.json: meta_types/qt6vectra_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating meta_types/qt6vectra_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating meta_types/qt6vectra_metatypes.json"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E true
 
 CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj: CMakeFiles/Vectra.dir/flags.make
 CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj: Vectra_autogen/mocs_compilation.cpp
 CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\Vectra.dir\Vectra_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\Vectra.dir\Vectra_autogen\mocs_compilation.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\Vectra_autogen\mocs_compilation.cpp
 
 CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.i: cmake_force
@@ -333,7 +357,7 @@ CMakeFiles/Vectra.dir/src/main.cpp.obj: CMakeFiles/Vectra.dir/flags.make
 CMakeFiles/Vectra.dir/src/main.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/src/main.cpp.obj: C:/Users/filip/Desktop/Vectra/src/main.cpp
 CMakeFiles/Vectra.dir/src/main.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Vectra.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Vectra.dir/src/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/src/main.cpp.obj -MF CMakeFiles\Vectra.dir\src\main.cpp.obj.d -o CMakeFiles\Vectra.dir\src\main.cpp.obj -c C:\Users\filip\Desktop\Vectra\src\main.cpp
 
 CMakeFiles/Vectra.dir/src/main.cpp.i: cmake_force
@@ -348,7 +372,7 @@ CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj: CMakeFiles/Vectra.dir
 CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj: vectra_qmltyperegistrations.cpp
 CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj -MF CMakeFiles\Vectra.dir\vectra_qmltyperegistrations.cpp.obj.d -o CMakeFiles\Vectra.dir\vectra_qmltyperegistrations.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\vectra_qmltyperegistrations.cpp
 
 CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.i: cmake_force
@@ -363,7 +387,7 @@ CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qma
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj: .qt/rcc/qrc_qmake_Vectra.cpp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Vectra.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Vectra.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Vectra.cpp
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.i: cmake_force
@@ -374,11 +398,26 @@ CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qma
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Vectra.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Vectra.cpp.s
 
+CMakeFiles/Vectra.dir/src/controller.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/src/controller.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/src/controller.cpp.obj: C:/Users/filip/Desktop/Vectra/src/controller.cpp
+CMakeFiles/Vectra.dir/src/controller.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Vectra.dir/src/controller.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/src/controller.cpp.obj -MF CMakeFiles\Vectra.dir\src\controller.cpp.obj.d -o CMakeFiles\Vectra.dir\src\controller.cpp.obj -c C:\Users\filip\Desktop\Vectra\src\controller.cpp
+
+CMakeFiles/Vectra.dir/src/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/src/controller.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\src\controller.cpp > CMakeFiles\Vectra.dir\src\controller.cpp.i
+
+CMakeFiles/Vectra.dir/src/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/src/controller.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\src\controller.cpp -o CMakeFiles\Vectra.dir\src\controller.cpp.s
+
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj: CMakeFiles/Vectra.dir/flags.make
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj: .rcc/qmlcache/Vectra_qmlcache_loader.cpp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qmlcache_loader.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qmlcache_loader.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qmlcache_loader.cpp
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.i: cmake_force
@@ -389,26 +428,11 @@ CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/V
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qmlcache_loader.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qmlcache_loader.cpp.s
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/Colors_qml.cpp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp
-
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.i
-
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.s
-
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/Login_qml.cpp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Login_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Login_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Login_qml.cpp
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.i: cmake_force
@@ -423,7 +447,7 @@ CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/V
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/Home_qml.cpp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Home_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Home_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Home_qml.cpp
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.i: cmake_force
@@ -434,101 +458,146 @@ CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/V
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Home_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Home_qml.cpp.s
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/CAccount_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CAccount_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CAccount_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CAccount_qml.cpp
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp.i
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CAccount_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CAccount_qml.cpp.i
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigAccount_qml.cpp.s
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CAccount_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CAccount_qml.cpp.s
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/CConnection_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CConnection_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CConnection_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CConnection_qml.cpp
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp.i
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CConnection_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CConnection_qml.cpp.i
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigConnection_qml.cpp.s
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CConnection_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CConnection_qml.cpp.s
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp.i
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp.i
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigGamepad_qml.cpp.s
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CGamepad_qml.cpp.s
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/CMacro_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CMacro_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CMacro_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CMacro_qml.cpp
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp.i
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CMacro_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CMacro_qml.cpp.i
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigMacro_qml.cpp.s
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CMacro_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CMacro_qml.cpp.s
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/CVideo_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CVideo_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CVideo_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CVideo_qml.cpp
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp.i
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CVideo_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CVideo_qml.cpp.i
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\ConfigVideo_qml.cpp.s
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CVideo_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\CVideo_qml.cpp.s
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/Friends_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Friends_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Friends_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Friends_qml.cpp
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp.i
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Friends_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Friends_qml.cpp.i
 
-CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Homeaddfriends_qml.cpp.s
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Friends_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Friends_qml.cpp.s
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/Init_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Init_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Init_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Init_qml.cpp
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Init_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Init_qml.cpp.i
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Init_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Init_qml.cpp.s
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/Colors_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.i
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\Colors_qml.cpp.s
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj: CMakeFiles/Vectra.dir/flags.make
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj: .rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp > CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp.i
+
+CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\Vectra_qml\HomeScreen_qml.cpp.s
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj: CMakeFiles/Vectra.dir/flags.make
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj: .qt/rcc/qrc_Vectra_raw_qml_0.cpp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_qml_0.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_qml_0.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_qml_0.cpp
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.i: cmake_force
@@ -543,7 +612,7 @@ CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vec
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj: .qt/rcc/qrc_Vectra_raw_res_0.cpp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_res_0.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_res_0.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_res_0.cpp
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.i: cmake_force
@@ -558,7 +627,7 @@ CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vec
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj: CMakeFiles/Vectra.dir/includes_CXX.rsp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj: .qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj: CMakeFiles/Vectra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj -MF CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj.d -o CMakeFiles\Vectra.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj -c C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_Vectra_raw_qml_0_extra_qmldirs.cpp
 
 CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.i: cmake_force
@@ -575,16 +644,19 @@ Vectra_OBJECTS = \
 "CMakeFiles/Vectra.dir/src/main.cpp.obj" \
 "CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj" \
 "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj" \
+"CMakeFiles/Vectra.dir/src/controller.cpp.obj" \
 "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj" \
-"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj" \
 "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj" \
 "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj" \
-"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj" \
-"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj" \
-"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj" \
-"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj" \
-"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj" \
-"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj" \
+"CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj" \
 "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj" \
 "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj" \
 "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj"
@@ -596,16 +668,19 @@ Vectra.exe: CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/src/main.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/vectra_qmltyperegistrations.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Vectra.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/src/controller.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qmlcache_loader.cpp.obj
-Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Login_qml.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Home_qml.cpp.obj
-Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.obj
-Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.obj
-Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.obj
-Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.obj
-Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.obj
-Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Friends_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Init_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/Colors_qml.cpp.obj
+Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_res_0.cpp.obj
 Vectra.exe: CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj
@@ -621,7 +696,7 @@ Vectra.exe: Vectra.exe.manifest
 Vectra.exe: CMakeFiles/Vectra.dir/linkLibs.rsp
 Vectra.exe: CMakeFiles/Vectra.dir/objects1.rsp
 Vectra.exe: CMakeFiles/Vectra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable Vectra.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable Vectra.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Vectra.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -636,22 +711,26 @@ CMakeFiles/Vectra.dir/depend: .qt/rcc/qrc_Vectra_raw_qml_0.cpp
 CMakeFiles/Vectra.dir/depend: .qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp
 CMakeFiles/Vectra.dir/depend: .qt/rcc/qrc_Vectra_raw_res_0.cpp
 CMakeFiles/Vectra.dir/depend: .qt/rcc/qrc_qmake_Vectra.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CAccount_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CAccount_qml.cpp.aotstats
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CConnection_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CConnection_qml.cpp.aotstats
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CGamepad_qml.cpp.aotstats
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CMacro_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CMacro_qml.cpp.aotstats
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CVideo_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/CVideo_qml.cpp.aotstats
 CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Colors_qml.cpp
 CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Colors_qml.cpp.aotstats
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigAccount_qml.cpp.aotstats
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigConnection_qml.cpp.aotstats
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigGamepad_qml.cpp.aotstats
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigMacro_qml.cpp.aotstats
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/ConfigVideo_qml.cpp.aotstats
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Friends_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Friends_qml.cpp.aotstats
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/HomeScreen_qml.cpp.aotstats
 CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Home_qml.cpp
 CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Home_qml.cpp.aotstats
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp
-CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Homeaddfriends_qml.cpp.aotstats
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Init_qml.cpp
+CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Init_qml.cpp.aotstats
 CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Login_qml.cpp
 CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qml/Login_qml.cpp.aotstats
 CMakeFiles/Vectra.dir/depend: .rcc/qmlcache/Vectra_qmlcache_loader.cpp

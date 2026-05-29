@@ -575,26 +575,26 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 53,
+                            "column": 134,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 138,
+                            "line": 136,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 80,
+                            "column": 161,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 138,
+                            "line": 136,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 143,
+                            "column": 224,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 138,
+                            "line": 136,
                             "message": ""
                         },
                         {
@@ -602,7 +602,7 @@
                             "column": 92,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
-                            "line": 140,
+                            "line": 137,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
@@ -610,7 +610,7 @@
                             "column": 150,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 140,
+                            "line": 137,
                             "message": ""
                         },
                         {
@@ -618,7 +618,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 159,
+                            "line": 156,
                             "message": ""
                         },
                         {
@@ -626,7 +626,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 166,
+                            "line": 163,
                             "message": ""
                         },
                         {
@@ -634,7 +634,7 @@
                             "column": 45,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 176,
+                            "line": 173,
                             "message": ""
                         },
                         {
@@ -642,14 +642,6 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 177,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
                             "line": 174,
                             "message": ""
                         },
@@ -658,7 +650,15 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 185,
+                            "line": 171,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 182,
                             "message": ""
                         },
                         {
@@ -666,7 +666,7 @@
                             "column": 164,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 202,
+                            "line": 199,
                             "message": ""
                         },
                         {
@@ -674,7 +674,7 @@
                             "column": 202,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 202,
+                            "line": 199,
                             "message": ""
                         },
                         {
@@ -682,7 +682,7 @@
                             "column": 149,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 209,
+                            "line": 206,
                             "message": ""
                         },
                         {
@@ -690,7 +690,7 @@
                             "column": 187,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 209,
+                            "line": 206,
                             "message": ""
                         },
                         {
@@ -698,7 +698,7 @@
                             "column": 37,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 225,
+                            "line": 222,
                             "message": ""
                         },
                         {
@@ -706,7 +706,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 226,
+                            "line": 223,
                             "message": ""
                         },
                         {
@@ -714,7 +714,7 @@
                             "column": 41,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 220,
+                            "line": 217,
                             "message": ""
                         },
                         {
@@ -722,7 +722,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 221,
+                            "line": 218,
                             "message": ""
                         }
                     ],

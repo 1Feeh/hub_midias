@@ -4,26 +4,19 @@ import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 
 Item {
+    id: windowRoot
     anchors.fill: parent
 
     RowLayout {
         anchors.fill: parent
         spacing: 0
 
-        // CORES DO SISTEMA
         readonly property color cadus_blue: "#15273D"
 
-        // Linha de controle para o Pop-up de Desconexão
         property bool showLogoutDialog: false
-
-        // ESTADOS DE CONTROLE: Convites Recebidos / Amigos (Fulaninho 1)
         property bool fulaninhoAceito: false
         property bool fulaninhoRecusado: false
-
-        // ESTADOS DE CONTROLE: Amigo Fixo (Fulaninho 2)
         property bool fulaninho2Removido: false
-
-        // ESTADOS DE CONTROLE: Convites Enviados por VOCÊ (Pesquisa)
         property bool conviteEnviado: false
 
         Rectangle {
@@ -52,7 +45,6 @@ Item {
                         anchors.margins: 15
                         spacing: 12
 
-                        // Linha de botões do topo (Abas principais)
                         RowLayout {
                             Layout.fillWidth: true
                             Layout.alignment: Qt.AlignHCenter
@@ -66,7 +58,7 @@ Item {
                                     source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
                                     width: 24; height: 24; anchors.centerIn: parent; fillMode: Image.PreserveAspectFit
                                 }
-                                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: sidebar.activeTab = 0 }
+                                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: mainWindow.tela = "../qml/Home.qml" }
                             }
 
                             Rectangle {
@@ -76,7 +68,7 @@ Item {
                                     source: "../assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
                                     width: 24; height: 24; anchors.centerIn: parent; fillMode: Image.PreserveAspectFit
                                 }
-                                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: sidebar.activeTab = 1 }
+                                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: mainWindow.tela = "../qml/Homeaddfriends.qml" }
                             }
 
                             Rectangle {
@@ -86,7 +78,7 @@ Item {
                                     source: "../assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
                                     width: 24; height: 24; anchors.centerIn: parent; fillMode: Image.PreserveAspectFit
                                 }
-                                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: sidebar.activeTab = 2 }
+                                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: mainWindow.tela = "../qml/ConfigVideo.qml" }
                             }
                             Item { Layout.fillWidth: true }
                         }
@@ -108,7 +100,6 @@ Item {
                             visible: !windowRoot.fulaninhoAceito && !windowRoot.fulaninhoRecusado
                         }
 
-                        // Card do convite que chegou para você
                         Rectangle {
                             id: cardConviteRecebido
                             Layout.fillWidth: true; height: 65; radius: 10
@@ -135,7 +126,6 @@ Item {
                                 RowLayout {
                                     spacing: 8
 
-                                    // Botão Aceitar (Círculo Verde)
                                     Rectangle {
                                         width: 26; height: 26; radius: 13; color: "#22c55e"
                                         Image {
@@ -148,7 +138,6 @@ Item {
                                         }
                                     }
 
-                                    // Botão Recusar Convite Recebido (X Vermelho)
                                     Image {
                                         source: "../assets/icons/Xvermelho.png"
                                         Layout.preferredWidth: 22; Layout.preferredHeight: 22; fillMode: Image.PreserveAspectFit
@@ -177,7 +166,6 @@ Item {
                             visible: windowRoot.conviteEnviado
                         }
 
-                        // Card de convite enviado (Com o status curto "Enviado...")
                         Rectangle {
                             id: cardConviteEnviado
                             Layout.fillWidth: true; height: 65; radius: 10
@@ -196,8 +184,6 @@ Item {
                                 ColumnLayout {
                                     spacing: 2
                                     Text { text: "Clone Encontrado"; color: "white"; font.bold: true; font.pixelSize: 14 }
-
-                                    // Linha com ID + Status modificado para apenas "Enviado..."
                                     RowLayout {
                                         spacing: 8
                                         Text { text: "ID: " + searchInput.text; color: sidebar.activeCard === 4 ? "#e2e8f0" : "#718096"; font.pixelSize: 11 }
@@ -207,7 +193,6 @@ Item {
 
                                 Item { Layout.fillWidth: true }
 
-                                // Botão Cancelar Envio (X Vermelho)
                                 Image {
                                     source: "../assets/icons/Xvermelho.png"
                                     Layout.preferredWidth: 22; Layout.preferredHeight: 22; fillMode: Image.PreserveAspectFit
@@ -237,7 +222,6 @@ Item {
                             visible: windowRoot.fulaninhoAceito || !windowRoot.fulaninho2Removido
                         }
 
-                        // Fulaninho promovido a amigo
                         Rectangle {
                             id: cardFulaninhoAceito
                             Layout.fillWidth: true; height: 65; radius: 10
@@ -269,7 +253,6 @@ Item {
                             MouseArea { anchors.fill: parent; z: -1; cursorShape: Qt.PointingHandCursor; onClicked: sidebar.activeCard = 3 }
                         }
 
-                        // Amigo Fixo - Fulaninho 2
                         Rectangle {
                             id: cardAmigoFixo
                             Layout.fillWidth: true; height: 65; radius: 10
@@ -312,14 +295,13 @@ Item {
                     id: mainContent
                     Layout.fillWidth: true
                     Layout.fillHeight: parent
-                    color: windowRoot.cadus_blue
+                    color: parent.parent.cadus_blue
 
                     ColumnLayout {
                         anchors.fill: parent
                         anchors.margins: 40
                         spacing: 30
 
-                        // CAMPO DE BUSCA (Search Bar)
                         Rectangle {
                             Layout.fillWidth: true
                             height: 50
@@ -358,7 +340,6 @@ Item {
                             }
                         }
 
-                        // RESULTADO DA BUSCA
                         Rectangle {
                             id: searchResultCard
                             Layout.fillWidth: true
@@ -379,7 +360,6 @@ Item {
 
                                 Item { Layout.fillWidth: true }
 
-                                // Botão de Enviar Solicitação
                                 Rectangle {
                                     width: 40; height: 40; radius: 20; color: "#2d3748"
                                     Image {

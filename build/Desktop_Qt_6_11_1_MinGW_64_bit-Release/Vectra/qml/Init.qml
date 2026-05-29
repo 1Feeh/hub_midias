@@ -1,22 +1,38 @@
-import QtQuick
-import QtQuick.Window
-import QtQuick.Controls
-import QtQuick.Layouts
+import QtQuick 2.15
 
-Window {
-    width: 800
-    height: 640
-    minimumWidth: 800
-    minimumHeight: 640
-    //maximumWidth: 800
-    //maximumHeight: 640
+Window{
+    id:root
+    width: 700
+    height: 600
+    minimumWidth: 700
+    minimumHeight: 600
     visible: true
-    title: "Vectra"
-    color: Colors.cadus_blue
+    title: "Vectra | beta"
+    color: "black"
 
-    StackView {
-        id: stackview
+    flags: Qt.Window | Qt.WindowSystemMenuHint | Qt.WindowTitleHint | Qt.WindowMinMaxButtonsHint | Qt.WindowCloseButtonHint
+
+    Shortcut {
+        sequence: "F11"
+        onActivated: {
+            if (root.visibility === Window.FullScreen)
+                root.visibility = Window.Windowed
+            else
+                root.visibility = Window.FullScreen
+        }
+    }
+
+    Shortcut {
+        sequence: "Escape"
+        onActivated: {
+            if (root.visibility === Window.FullScreen)
+                root.visibility = Window.Windowed
+        }
+    }
+
+    Loader{
+        id: loader
         anchors.fill: parent
-        initialItem: Login {stackView: stackview}  // ← direto pelo nome do componente
+        source: "../qml/Login.qml"
     }
 }

@@ -45,7 +45,7 @@ Item {
 
                             Button {
                                 implicitWidth: 38; implicitHeight: 38
-                                onClicked: topTab = 0
+                                onClicked: mainWindow.tela = "../qml/Home.qml"
                                 background: Rectangle { color: topTab === 0 ? "#64a1fb" : "transparent"; radius: 8 }
                                 contentItem: Image {
                                     source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
@@ -54,7 +54,7 @@ Item {
                             }
                             Button {
                                 implicitWidth: 38; implicitHeight: 38
-                                onClicked: topTab = 1
+                                onClicked: mainWindow.tela = "../qml/Homeaddfriends.qml"
                                 background: Rectangle { color: topTab === 1 ? "#64a1fb" : "transparent"; radius: 8 }
                                 contentItem: Image {
                                     source: "../assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
@@ -63,7 +63,7 @@ Item {
                             }
                             Button {
                                 implicitWidth: 38; implicitHeight: 38
-                                onClicked: topTab = 2
+                                onClicked: mainWindow.tela = "../qml/ConfigVideo.qml"
                                 background: Rectangle { color: topTab === 2 ? "#64a1fb" : "transparent"; radius: 8 }
                                 contentItem: Image {
                                     source: "../assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
@@ -77,7 +77,7 @@ Item {
                         // 0: VIDEO
                         Button {
                             Layout.fillWidth: true; Layout.preferredHeight: 55
-                            onClicked: currentTab = 0
+                            onClicked: mainWindow.tela = "../qml/ConfigVideo.qml"
                             background: Rectangle { color: currentTab === 0 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 0 ? "transparent" : "#1e2c3a"; border.width: 1 }
                             contentItem: Item { anchors.fill: parent
                                 Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
@@ -90,7 +90,7 @@ Item {
                         // 1: CONNECTION
                         Button {
                             Layout.fillWidth: true; Layout.preferredHeight: 55
-                            onClicked: currentTab = 1
+                            onClicked: mainWindow.tela = "../qml/ConfigConnection.qml"
                             background: Rectangle { color: currentTab === 1 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 1 ? "transparent" : "#1e2c3a"; border.width: 1 }
                             contentItem: Item { anchors.fill: parent
                                 Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
@@ -103,7 +103,7 @@ Item {
                         // 2: GAMEPAD
                         Button {
                             Layout.fillWidth: true; Layout.preferredHeight: 55
-                            onClicked: currentTab = 2
+                            onClicked: mainWindow.tela = "../qml/ConfigGamepad.qml"
                             background: Rectangle { color: currentTab === 2 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 2 ? "transparent" : "#1e2c3a"; border.width: 1 }
                             contentItem: Item { anchors.fill: parent
                                 Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
@@ -116,7 +116,7 @@ Item {
                         // 3: MACRO
                         Button {
                             Layout.fillWidth: true; Layout.preferredHeight: 55
-                            onClicked: currentTab = 3
+                            onClicked: mainWindow.tela = "../qml/ConfigMacro.qml"
                             background: Rectangle { color: currentTab === 3 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 3 ? "transparent" : "#1e2c3a"; border.width: 1 }
                             contentItem: Item { anchors.fill: parent
                                 Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
@@ -126,17 +126,14 @@ Item {
                             }
                         }
 
-                        // 4: ACCOUNT (ÍCONE CORRIGIDO)
+                        // 4: ACCOUNT
                         Button {
                             Layout.fillWidth: true; Layout.preferredHeight: 55
-                            onClicked: currentTab = 4
+                            onClicked: mainWindow.tela = "../qml/ConfigAccount.qml"
                             background: Rectangle { color: currentTab === 4 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 4 ? "transparent" : "#1e2c3a"; border.width: 1 }
                             contentItem: Item { anchors.fill: parent
                                 Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
-                                    Image {
-                                        source: "../assets/icons/person_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg";
-                                        sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.verticalCenter: parent.verticalCenter
-                                    }
+                                    Image { source: "../assets/icons/person_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"; sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.verticalCenter: parent.verticalCenter }
                                     Text { text: "Account"; font.pixelSize: 15; font.bold: currentTab === 4; color: "white"; anchors.verticalCenter: parent.verticalCenter }
                                 }
                             }

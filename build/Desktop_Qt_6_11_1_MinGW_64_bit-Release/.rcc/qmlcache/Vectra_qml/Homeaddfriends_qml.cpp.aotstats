@@ -10,7 +10,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 7,
+                            "line": 8,
                             "message": ""
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 10,
+                            "line": 11,
                             "message": ""
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 31,
+                            "line": 24,
                             "message": ""
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 35,
+                            "line": 28,
                             "message": ""
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "fillHeight",
-                            "line": 44,
+                            "line": 37,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 51,
+                            "line": 44,
                             "message": ""
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 58,
+                            "line": 50,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 64,
+                            "line": 56,
                             "message": ""
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 96,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 67,
+                            "line": 59,
                             "message": ""
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 78,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 67,
+                            "line": 59,
                             "message": ""
                         },
                         {
@@ -90,23 +90,23 @@
                             "column": 80,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 69,
+                            "line": 61,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
+                            "codegenResult": 2,
                             "column": 114,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 69,
-                            "message": ""
+                            "line": 61,
+                            "message": "Cannot access value for name mainWindow"
                         },
                         {
                             "codegenResult": 0,
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 69,
+                            "line": 61,
                             "message": ""
                         },
                         {
@@ -114,7 +114,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 74,
+                            "line": 66,
                             "message": ""
                         },
                         {
@@ -122,7 +122,7 @@
                             "column": 96,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 77,
+                            "line": 69,
                             "message": ""
                         },
                         {
@@ -130,7 +130,7 @@
                             "column": 78,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 77,
+                            "line": 69,
                             "message": ""
                         },
                         {
@@ -138,23 +138,23 @@
                             "column": 80,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 79,
+                            "line": 71,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
+                            "codegenResult": 2,
                             "column": 114,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 79,
-                            "message": ""
+                            "line": 71,
+                            "message": "Cannot access value for name mainWindow"
                         },
                         {
                             "codegenResult": 0,
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 79,
+                            "line": 71,
                             "message": ""
                         },
                         {
@@ -162,7 +162,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 84,
+                            "line": 76,
                             "message": ""
                         },
                         {
@@ -170,7 +170,7 @@
                             "column": 96,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 87,
+                            "line": 79,
                             "message": ""
                         },
                         {
@@ -178,7 +178,7 @@
                             "column": 78,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 87,
+                            "line": 79,
                             "message": ""
                         },
                         {
@@ -186,23 +186,23 @@
                             "column": 80,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 89,
+                            "line": 81,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
+                            "codegenResult": 2,
                             "column": 114,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 89,
-                            "message": ""
+                            "line": 81,
+                            "message": "Cannot access value for name mainWindow"
                         },
                         {
                             "codegenResult": 0,
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 89,
+                            "line": 81,
                             "message": ""
                         },
                         {
@@ -210,23 +210,23 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 104,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 96,
+                            "message": "Cannot load property fulaninhoAceito from Homeaddfriends."
                         },
                         {
                             "codegenResult": 2,
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 108,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 100,
+                            "message": "Cannot load property fulaninhoAceito from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 115,
+                            "line": 106,
                             "message": ""
                         },
                         {
@@ -234,15 +234,15 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 116,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 107,
+                            "message": "Cannot load property fulaninhoAceito from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 119,
+                            "line": 110,
                             "message": ""
                         },
                         {
@@ -250,7 +250,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 124,
+                            "line": 115,
                             "message": ""
                         },
                         {
@@ -258,7 +258,7 @@
                             "column": 74,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 130,
+                            "line": 121,
                             "message": ""
                         },
                         {
@@ -266,7 +266,7 @@
                             "column": 104,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 143,
+                            "line": 133,
                             "message": ""
                         },
                         {
@@ -274,6 +274,38 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
+                            "line": 133,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 80,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 137,
+                            "message": "Type Homeaddfriends does not have a property fulaninhoAceito for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 59,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 106,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
                             "line": 143,
                             "message": ""
                         },
@@ -282,7 +314,7 @@
                             "column": 80,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 146,
+                            "line": 145,
                             "message": ""
                         },
                         {
@@ -290,47 +322,15 @@
                             "column": 56,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 147,
-                            "message": "Cannot access value for name windowRoot"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
                             "line": 146,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 106,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 154,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 80,
-                            "durationMicroseconds": 0,
-                            "functionName": "cursorShape",
-                            "line": 156,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 157,
-                            "message": "Cannot access value for name windowRoot"
+                            "message": "Type Homeaddfriends does not have a property fulaninhoRecusado for writing"
                         },
                         {
                             "codegenResult": 0,
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 156,
+                            "line": 145,
                             "message": ""
                         },
                         {
@@ -338,7 +338,7 @@
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 162,
+                            "line": 151,
                             "message": ""
                         },
                         {
@@ -346,7 +346,7 @@
                             "column": 117,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 162,
+                            "line": 151,
                             "message": ""
                         },
                         {
@@ -354,7 +354,31 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
+                            "line": 151,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
                             "line": 162,
+                            "message": "Cannot load property conviteEnviado from Homeaddfriends."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 166,
+                            "message": "Cannot load property conviteEnviado from Homeaddfriends."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 172,
                             "message": ""
                         },
                         {
@@ -363,38 +387,14 @@
                             "durationMicroseconds": 0,
                             "functionName": "visible",
                             "line": 173,
-                            "message": "Cannot access value for name windowRoot"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "visible",
-                            "line": 177,
-                            "message": "Cannot access value for name windowRoot"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 184,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "visible",
-                            "line": 185,
-                            "message": "Cannot access value for name windowRoot"
+                            "message": "Cannot load property conviteEnviado from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 188,
+                            "line": 176,
                             "message": ""
                         },
                         {
@@ -402,7 +402,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 193,
+                            "line": 181,
                             "message": ""
                         },
                         {
@@ -410,7 +410,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 203,
+                            "line": 189,
                             "message": ""
                         },
                         {
@@ -418,7 +418,7 @@
                             "column": 88,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 203,
+                            "line": 189,
                             "message": ""
                         },
                         {
@@ -426,7 +426,7 @@
                             "column": 102,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 213,
+                            "line": 198,
                             "message": ""
                         },
                         {
@@ -434,7 +434,7 @@
                             "column": 76,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 215,
+                            "line": 200,
                             "message": ""
                         },
                         {
@@ -442,15 +442,15 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 216,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 201,
+                            "message": "Type Homeaddfriends does not have a property conviteEnviado for writing"
                         },
                         {
                             "codegenResult": 0,
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 215,
+                            "line": 200,
                             "message": ""
                         },
                         {
@@ -458,7 +458,7 @@
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 220,
+                            "line": 205,
                             "message": ""
                         },
                         {
@@ -466,7 +466,7 @@
                             "column": 117,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 220,
+                            "line": 205,
                             "message": ""
                         },
                         {
@@ -474,7 +474,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 220,
+                            "line": 205,
                             "message": ""
                         },
                         {
@@ -482,23 +482,23 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 233,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 218,
+                            "message": "Cannot load property fulaninhoAceito from Homeaddfriends."
                         },
                         {
                             "codegenResult": 2,
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 237,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 222,
+                            "message": "Cannot load property fulaninhoAceito from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 244,
+                            "line": 228,
                             "message": ""
                         },
                         {
@@ -506,12 +506,60 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 245,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 229,
+                            "message": "Cannot load property fulaninhoAceito from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 232,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 102,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 235,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 74,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 240,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 102,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 246,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 248,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 249,
+                            "message": "Type Homeaddfriends does not have a property fulaninhoAceito for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
                             "line": 248,
@@ -519,58 +567,10 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 102,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 251,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 74,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 256,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 102,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 262,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 76,
-                            "durationMicroseconds": 0,
-                            "functionName": "cursorShape",
-                            "line": 264,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 52,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 265,
-                            "message": "Cannot access value for name windowRoot"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 55,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 264,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 269,
+                            "line": 253,
                             "message": ""
                         },
                         {
@@ -578,7 +578,7 @@
                             "column": 117,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 269,
+                            "line": 253,
                             "message": ""
                         },
                         {
@@ -586,7 +586,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 269,
+                            "line": 253,
                             "message": ""
                         },
                         {
@@ -594,7 +594,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 276,
+                            "line": 259,
                             "message": ""
                         },
                         {
@@ -602,15 +602,15 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 277,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 260,
+                            "message": "Cannot load property fulaninho2Removido from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 280,
+                            "line": 263,
                             "message": ""
                         },
                         {
@@ -618,7 +618,7 @@
                             "column": 102,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 283,
+                            "line": 266,
                             "message": ""
                         },
                         {
@@ -626,7 +626,7 @@
                             "column": 74,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 288,
+                            "line": 271,
                             "message": ""
                         },
                         {
@@ -634,7 +634,7 @@
                             "column": 102,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 294,
+                            "line": 277,
                             "message": ""
                         },
                         {
@@ -642,7 +642,7 @@
                             "column": 76,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 296,
+                            "line": 279,
                             "message": ""
                         },
                         {
@@ -650,15 +650,15 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 297,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 280,
+                            "message": "Type Homeaddfriends does not have a property fulaninho2Removido for writing"
                         },
                         {
                             "codegenResult": 0,
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 296,
+                            "line": 279,
                             "message": ""
                         },
                         {
@@ -666,7 +666,7 @@
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 301,
+                            "line": 284,
                             "message": ""
                         },
                         {
@@ -674,7 +674,7 @@
                             "column": 117,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 301,
+                            "line": 284,
                             "message": ""
                         },
                         {
@@ -682,7 +682,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 301,
+                            "line": 284,
                             "message": ""
                         },
                         {
@@ -690,15 +690,15 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 315,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 298,
+                            "message": "Cannot load property cadus_blue from QQuickItem::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "fillHeight",
-                            "line": 314,
+                            "line": 297,
                             "message": ""
                         },
                         {
@@ -706,7 +706,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 318,
+                            "line": 301,
                             "message": ""
                         },
                         {
@@ -714,7 +714,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 332,
+                            "line": 314,
                             "message": ""
                         },
                         {
@@ -722,7 +722,7 @@
                             "column": 56,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 341,
+                            "line": 323,
                             "message": ""
                         },
                         {
@@ -730,7 +730,7 @@
                             "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 348,
+                            "line": 330,
                             "message": "Cannot load property text from (component in C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml)::parent with type QQuickItem."
                         },
                         {
@@ -738,7 +738,7 @@
                             "column": 60,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 350,
+                            "line": 332,
                             "message": ""
                         },
                         {
@@ -746,7 +746,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 349,
+                            "line": 331,
                             "message": ""
                         },
                         {
@@ -754,7 +754,7 @@
                             "column": 102,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 356,
+                            "line": 338,
                             "message": ""
                         },
                         {
@@ -762,15 +762,15 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 367,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 348,
+                            "message": "Cannot load property conviteEnviado from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 370,
+                            "line": 351,
                             "message": ""
                         },
                         {
@@ -778,7 +778,7 @@
                             "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 377,
+                            "line": 358,
                             "message": ""
                         },
                         {
@@ -786,7 +786,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 387,
+                            "line": 367,
                             "message": ""
                         },
                         {
@@ -794,7 +794,7 @@
                             "column": 76,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 390,
+                            "line": 370,
                             "message": ""
                         },
                         {
@@ -802,15 +802,15 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 391,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 371,
+                            "message": "Type Homeaddfriends does not have a property conviteEnviado for writing"
                         },
                         {
                             "codegenResult": 0,
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 390,
+                            "line": 370,
                             "message": ""
                         },
                         {
@@ -818,15 +818,15 @@
                             "column": 68,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 410,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 390,
+                            "message": "Cannot load property showLogoutDialog from Homeaddfriends."
                         },
                         {
                             "codegenResult": 0,
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 410,
+                            "line": 390,
                             "message": ""
                         },
                         {
@@ -834,7 +834,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 411,
+                            "line": 391,
                             "message": ""
                         },
                         {
@@ -842,7 +842,7 @@
                             "column": 136,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 413,
+                            "line": 393,
                             "message": ""
                         },
                         {
@@ -850,7 +850,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 415,
+                            "line": 395,
                             "message": ""
                         },
                         {
@@ -858,7 +858,7 @@
                             "column": 132,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 416,
+                            "line": 396,
                             "message": ""
                         },
                         {
@@ -866,7 +866,7 @@
                             "column": 60,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 418,
+                            "line": 398,
                             "message": ""
                         },
                         {
@@ -874,7 +874,7 @@
                             "column": 148,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 419,
+                            "line": 399,
                             "message": ""
                         },
                         {
@@ -882,7 +882,7 @@
                             "column": 221,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 419,
+                            "line": 399,
                             "message": ""
                         },
                         {
@@ -890,15 +890,15 @@
                             "column": 255,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 419,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 399,
+                            "message": "Type Homeaddfriends does not have a property showLogoutDialog for writing"
                         },
                         {
                             "codegenResult": 0,
                             "column": 200,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 419,
+                            "line": 399,
                             "message": ""
                         },
                         {
@@ -906,7 +906,7 @@
                             "column": 148,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 420,
+                            "line": 400,
                             "message": ""
                         },
                         {
@@ -914,7 +914,7 @@
                             "column": 221,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 420,
+                            "line": 400,
                             "message": ""
                         },
                         {
@@ -922,15 +922,15 @@
                             "column": 255,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 420,
-                            "message": "Cannot access value for name windowRoot"
+                            "line": 400,
+                            "message": "Type Homeaddfriends does not have a property showLogoutDialog for writing"
                         },
                         {
                             "codegenResult": 0,
                             "column": 200,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 420,
+                            "line": 400,
                             "message": ""
                         }
                     ],

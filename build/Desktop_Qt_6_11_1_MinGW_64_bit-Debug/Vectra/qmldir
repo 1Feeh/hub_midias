@@ -1,14 +1,16 @@
 module Vectra
 typeinfo Vectra.qmltypes
 prefer :/qt/qml/Vectra/
-singleton Colors 254.0 qml/Colors.qml
 Login 254.0 qml/Login.qml
 Home 254.0 qml/Home.qml
-ConfigAccount 254.0 qml/ConfigAccount.qml
-ConfigConnection 254.0 qml/ConfigConnection.qml
-ConfigGamepad 254.0 qml/ConfigGamepad.qml
-ConfigMacro 254.0 qml/ConfigMacro.qml
-ConfigVideo 254.0 qml/ConfigVideo.qml
-Homeaddfriends 254.0 qml/Homeaddfriends.qml
+CAccount 254.0 qml/CAccount.qml
+CConnection 254.0 qml/CConnection.qml
+CGamepad 254.0 qml/CGamepad.qml
+CMacro 254.0 qml/CMacro.qml
+CVideo 254.0 qml/CVideo.qml
+Friends 254.0 qml/Friends.qml
+Init 254.0 qml/Init.qml
+singleton Colors 254.0 qml/Colors.qml
+HomeScreen 254.0 qml/HomeScreen.qml
 depends QtQuick
 

@@ -18,51 +18,45 @@ set_source_files_properties(qml/Colors.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE
 qt_add_qml_module(Vectra
     URI Vectra
     QML_FILES
-        qml/Colors.qml
         qml/Login.qml
         qml/Home.qml
-	qml/ConfigAccount.qml
-	qml/ConfigConnection.qml
-	qml/ConfigGamepad.qml
-	qml/ConfigMacro.qml
-	qml/ConfigVideo.qml
-	qml/Homeaddfriends.qml
-	qml/Init.qml
+        qml/CAccount.qml
+        qml/CConnection.qml
+        qml/CGamepad.qml
+        qml/CMacro.qml
+        qml/CVideo.qml
+        qml/Friends.qml
+        qml/Init.qml
+        qml/Colors.qml
     RESOURCES
-        assets/icons/assistant_on_hub_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/adobe-express-qr-code1.png
-	assets/icons/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/chat_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/check_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/close_fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/correto.png
-	assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/display_settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/Email.png
-	assets/icons/fullscreen_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/game_button_l_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/game_button_r_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/game_trigger_left_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/keyboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/lan_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/Logout.png
-	assets/icons/logout_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/manage_accounts_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/mouse_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/OlhoPassword.png
-	assets/icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/power_settings_new_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/stadia_controller_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/toggle_on_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/translate_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/undo_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
-	assets/icons/Vector.png
-	assets/icons/Xvermelho.png
-
+        assets/icons/cancelar.svg
+        assets/icons/chat.svg
+        assets/icons/check_circle.svg
+        assets/icons/close_fullscreen.svg
+        assets/icons/conection.svg
+        assets/icons/conf_control.svg
+        assets/icons/control_map.png
+        assets/icons/controller.svg
+        assets/icons/del_friend.svg
+        assets/icons/desktop_windows.svg
+        assets/icons/display_settings.svg
+        assets/icons/eye.svg
+        assets/icons/friend_add.svg
+        assets/icons/fullscreen.svg
+        assets/icons/home.svg
+        assets/icons/keyboard.svg
+        assets/icons/logout.svg
+        assets/icons/mail.svg
+        assets/icons/mouse.svg
+        assets/icons/person.svg
+        assets/icons/qrcode.png
+        assets/icons/search.svg
+        assets/icons/settings.svg
+        assets/icons/toggle_on_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
+        assets/icons/Vector.png
+        QML_FILES qml/HomeScreen.qml
+        SOURCES src/controller.h
+        SOURCES src/controller.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

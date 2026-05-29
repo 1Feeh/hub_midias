@@ -1,257 +1,108 @@
-import QtQuick
-import QtQuick.Window
-import QtQuick.Controls
-import QtQuick.Layouts
-import Vectra
+import QtQuick 2.15
 
-
-Window {
-    width: 800
-    height: 640
-    minimumWidth: 800
-    minimumHeight: 640
-    maximumWidth: 800
-    maximumHeight: 640
-    visible: true
-    title: "Vectra"
-    color: Colors.cadus_blue // Cor de fundo ajustada com base no protótipo
-
-    RowLayout {
+Item {
+    anchors.fill: parent
+    Rectangle{
+        id: fundo
         anchors.fill: parent
-        spacing: 0
+        color: Colors.cadus_blue
 
-        // --- SIDEBAR (ESQUERDA) ---
-        Rectangle {
-            id: sidebar
-            Layout.preferredWidth: 350
-            Layout.fillHeight: parent
-            color: Colors.dark_blue // Fundo escuro idêntico ao protótipo
+        //menu central de login
+        Rectangle{
 
-            ColumnLayout {
-                anchors.fill: parent
-                anchors.margins: 35
-                spacing: 15
+            id: centro
+            anchors.centerIn: fundo
+            width: 300
+            height: fundo.height
+            color: Colors.dark_blue
 
-                // --- Seção QR Code ---
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 8
+            Column{
 
-                    Text {
-                        text: "Scaneie com app mobile"
-                        color: "white"
-                        font.pixelSize: 14
-                        Layout.alignment: Qt.AlignHCenter
-                    }
+                id: coluna
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
 
-                    // Linha divisória fina abaixo do texto do QR Code
-                    Rectangle {
-                        Layout.fillWidth: true
-                        height: 1
-                        color: "White"
-                    }
-
-                    Item { height: 5 } // Pequeno espaçador
-
-                    Rectangle {
-                        width: 130; height: 130
-                        color: "white"
-                        Layout.alignment: Qt.AlignHCenter
-
-                        Image {
-                            anchors.fill: parent
-                            anchors.margins: 6
-                            // Caminho do seu QR Code local
-                            source: "../assets/icons/adobe-express-qr-code1.png"
-
-                            fillMode: Image.PreserveAspectFit
-                        }
-                    }
+                Item {
+                    width: parent.width
+                    height: 30
                 }
 
-                Item { height: 10 } // Espaçador
-
-                // --- Seção Título Login ---
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 8
-
-                    Text {
-                        text: "Login"
-                        color: "white"
-                        font.pixelSize: 22
-                        Layout.alignment: Qt.AlignHCenter
-                    }
-
-                    // Linha divisória fina abaixo do Login
-                    Rectangle {
-                        Layout.fillWidth: true
-                        height: 1
-                        color: "white"
-                    }
-                }
-
-                Item { height: 10 } // Espaçador
-
-                // --- FORMULÁRIO (INPUTS) ---
-                // Campo de E-mail
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 6
-
-                    Text {
-                        text: "E-mail"
-                        color: "white"
-                        font.pixelSize: 14
-                        Layout.alignment: Qt.AlignHCenter
-                    }
-
-                    TextField {
-                        id: emailField
-                        placeholderText: "example@mail.com"
-                        placeholderTextColor: "#64748B"
-                        Layout.fillWidth: true
-                        height: 35
-                        color: "white"
-                        leftPadding: 10
-                        rightPadding: 35
-
-                        background: Rectangle {
-                            color: Colors.medium_blue
-                            radius: 0 // Quadrado igual ao protótipo
-                        }
-
-                        // Ícone do Email posicionado à direita
-                        Image {
-                            source: "../assets/icons/Email.png"
-                            width: 18
-                            height: 14
-                            fillMode: Image.PreserveAspectFit
-                            anchors.right: parent.right
-                            anchors.rightMargin: 10
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-                    }
-                }
-
-                // Campo de Senha
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 6
-
-                    Text {
-                        text: "Password"
-                        color: "white"
-                        font.pixelSize: 14
-                        Layout.alignment: Qt.AlignHCenter
-                    }
-
-                    TextField {
-                        id: passwordField
-                        placeholderText: "****************"
-                        placeholderTextColor: "#64748B"
-                        echoMode: TextInput.Password
-                        Layout.fillWidth: true
-                        height: 35
-                        color: "white"
-                        leftPadding: 10
-                        rightPadding: 35
-
-                        background: Rectangle {
-                            color: Colors.medium_blue
-                            radius: 0 // Quadrado igual ao protótipo
-                        }
-
-                        // Ícone do Olho posicionado à direita
-                        Image {
-                            source: "../assets/icons/OlhoPassword.png"
-                            width: 20
-                            height: 14
-                            fillMode: Image.PreserveAspectFit
-                            anchors.right: parent.right
-                            anchors.rightMargin: 10
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-                    }
-                }
-
-                // Esqueci a senha
                 Text {
-                    text: "Forgot password?"
-                    color: "blue"
-                    font.underline: true
-                    font.pixelSize: 14
-                    Layout.alignment: Qt.AlignHCenter
+                    id: qrcode
+                    text: qsTr("Escaneie o QR code")
+                    color: "white"
+                    anchors.horizontalCenter: coluna.horizontalCenter
+                }
+
+                Item {
+                    width: parent.width
+                    height: 30
+                }
+
+                Image {
+                    id: name
+                    anchors.horizontalCenter: coluna.horizontalCenter
+                    width: 100
+                    height: 100
+                    source: "../assets/icons/qrcode.png"
+                }
+
+                //botoes login - criar conta
+
+                Item {
+                    width: parent.width
+                    height: 30
+                }
+
+                Rectangle {
+                    width: 200
+                    height: 40
+                    radius: 8
+                    color: Colors.vibrance_blue
+                    anchors.horizontalCenter: parent.horizontalCenter
+
+                    Text {
+                        anchors.centerIn: parent
+                        text: "Entrar"
+                        color: "white"
+                    }
 
                     MouseArea {
                         anchors.fill: parent
-                        cursorShape: Qt.PointingHandCursor
                         onClicked: {
-                            console.log("Forgot password clicked!")
+                            console.log("clicou")
+                            loader.source = "../qml/Home.qml"
                         }
+                        cursorShape: Qt.PointingHandCursor
                     }
                 }
 
-                Item { Layout.fillHeight: true } // Espaçador que empurra os botões para baixo
+                Item {
+                    width: parent.width
+                    height: 10
+                }
 
-                // --- BOTÕES (IDÊNTICOS) ---
-                // Botão Login
-                Button {
-                    id: loginBtn
-                    text: "Login"
-                    Layout.fillWidth: true
-                    implicitHeight: 50
+                Rectangle {
+                    width: 200
+                    height: 40
+                    radius: 8
+                    color: Colors.vibrance_blue
+                    anchors.horizontalCenter: parent.horizontalCenter
 
-                    contentItem: Text {
-                        text: parent.text
+                    Text {
+                        anchors.centerIn: parent
+                        text: "Criar conta"
                         color: "white"
-                        horizontalAlignment: Text.AlignHCenter
-                        verticalAlignment: Text.AlignVCenter
-                        font.pixelSize: 18
                     }
-                    background: Rectangle {
-                        color: loginBtn.pressed ? "#2563eb" : "#5897f7"
-                        radius: 10
-                    }
-                }
 
-                // Botão Create Account
-                Button {
-                    id: createAccountBtn
-                    text: "Create account"
-                    Layout.fillWidth: true
-                    implicitHeight: 50
-
-                    contentItem: Text {
-                        text: parent.text
-                        color: "white"
-                        horizontalAlignment: Text.AlignHCenter
-                        verticalAlignment: Text.AlignVCenter
-                        font.pixelSize: 18
-                    }
-                    background: Rectangle {
-                        color: createAccountBtn.pressed ? "#2563eb" : "#5897f7"
-                        radius: 10
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: {
+                            console.log("clicou")
+                        }
+                        cursorShape: Qt.PointingHandCursor
                     }
                 }
-            }
-        }
-
-        // --- ÁREA PRINCIPAL (DIREITA) ---
-        Rectangle {
-            Layout.fillWidth: true
-            Layout.fillHeight: parent
-            color: Colors.cadus_blue // Cor azul do fundo da direita conforme o protótipo
-
-            // Imagem do seu Logo "V" centralizada perfeitamente
-            Image {
-                id: logoView
-                // Seu caminho local do Windows configurado com o protocolo file:///
-                source: "../assets/icons/Vector.png"
-                anchors.centerIn: parent
-                width: 450  // Ajuste o tamanho padrão para exibição aqui se necessário
-                height: 450
-                fillMode: Image.PreserveAspectFit
             }
         }
     }

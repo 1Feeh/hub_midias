@@ -112,231 +112,109 @@ Item {
                         anchors.margins: 15
                         spacing: 8
 
-                        // Ícones do Topo
+                        // --- ÍCONES DO TOPO ---
                         RowLayout {
                             Layout.alignment: Qt.AlignHCenter
                             Layout.bottomMargin: 10
                             spacing: 25
 
                             Button {
-                                implicitWidth: 38
-                                implicitHeight: 38
-                                onClicked: topTab = 0
-                                background: Rectangle {
-                                    color: topTab === 0 ? "#64a1fb" : "transparent"
-                                    radius: 8
-                                }
+                                implicitWidth: 38; implicitHeight: 38
+                                onClicked: mainWindow.tela = "../qml/Home.qml"
+                                background: Rectangle { color: topTab === 0 ? "#64a1fb" : "transparent"; radius: 8 }
                                 contentItem: Image {
                                     source: "../assets/icons/desktop_windows_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    sourceSize: Qt.size(24, 24)
-                                    fillMode: Image.PreserveAspectFit
-                                    mipmap: true
-                                    anchors.centerIn: parent
+                                    sourceSize: Qt.size(24, 24); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.centerIn: parent
                                 }
                             }
                             Button {
-                                implicitWidth: 38
-                                implicitHeight: 38
-                                onClicked: topTab = 1
-                                background: Rectangle {
-                                    color: topTab === 1 ? "#64a1fb" : "transparent"
-                                    radius: 8
-                                }
+                                implicitWidth: 38; implicitHeight: 38
+                                onClicked: mainWindow.tela = "../qml/Homeaddfriends.qml"
+                                background: Rectangle { color: topTab === 1 ? "#64a1fb" : "transparent"; radius: 8 }
                                 contentItem: Image {
                                     source: "../assets/icons/group_add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    sourceSize: Qt.size(24, 24)
-                                    fillMode: Image.PreserveAspectFit
-                                    mipmap: true
-                                    anchors.centerIn: parent
+                                    sourceSize: Qt.size(24, 24); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.centerIn: parent
                                 }
                             }
                             Button {
-                                implicitWidth: 38
-                                implicitHeight: 38
-                                onClicked: topTab = 2
-                                background: Rectangle {
-                                    color: topTab === 2 ? "#64a1fb" : "transparent"
-                                    radius: 8
-                                }
+                                implicitWidth: 38; implicitHeight: 38
+                                onClicked: mainWindow.tela = "../qml/ConfigVideo.qml"
+                                background: Rectangle { color: topTab === 2 ? "#64a1fb" : "transparent"; radius: 8 }
                                 contentItem: Image {
                                     source: "../assets/icons/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                    sourceSize: Qt.size(20, 20)
-                                    fillMode: Image.PreserveAspectFit
-                                    mipmap: true
-                                    anchors.centerIn: parent
+                                    sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.centerIn: parent
                                 }
                             }
                         }
 
-                        // Botão Video
+                        // --- BOTÕES DO MENU LATERAL ---
+
+                        // 0: VIDEO
                         Button {
-                            Layout.fillWidth: true
-                            Layout.preferredHeight: 55
-                            onClicked: currentTab = 0
-                            background: Rectangle {
-                                color: currentTab === 0 ? "#64a1fb" : "#111821"
-                                radius: 12
-                                border.color: currentTab === 0 ? "transparent" : "#1e2c3a"
-                                border.width: 1
-                            }
-                            contentItem: Item {
-                                anchors.fill: parent
-                                Row {
-                                    spacing: 15
-                                    anchors.left: parent.left
-                                    anchors.leftMargin: 15
-                                    anchors.verticalCenter: parent.verticalCenter
-                                    Image {
-                                        source: "../assets/icons/video_settings_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"
-                                        sourceSize: Qt.size(20, 20)
-                                        fillMode: Image.PreserveAspectFit
-                                    }
-                                    Text {
-                                        text: "Video"
-                                        font.pixelSize: 15
-                                        color: "white"
-                                        anchors.verticalCenter: parent.verticalCenter
-                                    }
+                            Layout.fillWidth: true; Layout.preferredHeight: 55
+                            onClicked: mainWindow.tela = "../qml/ConfigVideo.qml"
+                            background: Rectangle { color: currentTab === 0 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 0 ? "transparent" : "#1e2c3a"; border.width: 1 }
+                            contentItem: Item { anchors.fill: parent
+                                Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
+                                    Image { source: "../assets/icons/video_settings_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"; sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.verticalCenter: parent.verticalCenter }
+                                    Text { text: "Video"; font.pixelSize: 15; font.bold: currentTab === 0; color: "white"; anchors.verticalCenter: parent.verticalCenter }
                                 }
                             }
                         }
 
-                        // Botão Connection
+                        // 1: CONNECTION
                         Button {
-                            Layout.fillWidth: true
-                            Layout.preferredHeight: 55
-                            onClicked: currentTab = 1
-                            background: Rectangle {
-                                color: currentTab === 1 ? "#64a1fb" : "#111821"
-                                radius: 12
-                                border.color: currentTab === 1 ? "transparent" : "#1e2c3a"
-                                border.width: 1
-                            }
-                            contentItem: Item {
-                                anchors.fill: parent
-                                Row {
-                                    spacing: 15
-                                    anchors.left: parent.left
-                                    anchors.leftMargin: 15
-                                    anchors.verticalCenter: parent.verticalCenter
-                                    Image {
-                                        source: "../assets/icons/broadcast_on_home_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"
-                                        sourceSize: Qt.size(20, 20)
-                                        fillMode: Image.PreserveAspectFit
-                                    }
-                                    Text {
-                                        text: "Connection"
-                                        font.pixelSize: 15
-                                        color: "white"
-                                        anchors.verticalCenter: parent.verticalCenter
-                                    }
+                            Layout.fillWidth: true; Layout.preferredHeight: 55
+                            onClicked: mainWindow.tela = "../qml/ConfigConnection.qml"
+                            background: Rectangle { color: currentTab === 1 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 1 ? "transparent" : "#1e2c3a"; border.width: 1 }
+                            contentItem: Item { anchors.fill: parent
+                                Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
+                                    Image { source: "../assets/icons/broadcast_on_home_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"; sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.verticalCenter: parent.verticalCenter }
+                                    Text { text: "Connection"; font.pixelSize: 15; font.bold: currentTab === 1; color: "white"; anchors.verticalCenter: parent.verticalCenter }
                                 }
                             }
                         }
 
-                        // Botão Gamepad
+                        // 2: GAMEPAD
                         Button {
-                            Layout.fillWidth: true
-                            Layout.preferredHeight: 55
-                            onClicked: currentTab = 2
-                            background: Rectangle {
-                                color: currentTab === 2 ? "#64a1fb" : "#111821"
-                                radius: 12
-                                border.color: currentTab === 2 ? "transparent" : "#1e2c3a"
-                                border.width: 1
-                            }
-                            contentItem: Item {
-                                anchors.fill: parent
-                                Row {
-                                    spacing: 15
-                                    anchors.left: parent.left
-                                    anchors.leftMargin: 15
-                                    anchors.verticalCenter: parent.verticalCenter
-                                    Image {
-                                        source: "../assets/icons/videogame_asset_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"
-                                        sourceSize: Qt.size(20, 20)
-                                        fillMode: Image.PreserveAspectFit
-                                    }
-                                    Text {
-                                        text: "Gamepad"
-                                        font.pixelSize: 15
-                                        font.bold: true
-                                        color: "white"
-                                        anchors.verticalCenter: parent.verticalCenter
-                                    }
+                            Layout.fillWidth: true; Layout.preferredHeight: 55
+                            onClicked: mainWindow.tela = "../qml/ConfigGamepad.qml"
+                            background: Rectangle { color: currentTab === 2 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 2 ? "transparent" : "#1e2c3a"; border.width: 1 }
+                            contentItem: Item { anchors.fill: parent
+                                Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
+                                    Image { source: "../assets/icons/videogame_asset_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"; sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.verticalCenter: parent.verticalCenter }
+                                    Text { text: "Gamepad"; font.pixelSize: 15; font.bold: currentTab === 2; color: "white"; anchors.verticalCenter: parent.verticalCenter }
                                 }
                             }
                         }
 
-                        // Botão Macro
+                        // 3: MACRO
                         Button {
-                            Layout.fillWidth: true
-                            Layout.preferredHeight: 55
-                            onClicked: currentTab = 3
-                            background: Rectangle {
-                                color: currentTab === 3 ? "#64a1fb" : "#111821"
-                                radius: 12
-                                border.color: currentTab === 3 ? "transparent" : "#1e2c3a"
-                                border.width: 1
-                            }
-                            contentItem: Item {
-                                anchors.fill: parent
-                                Row {
-                                    spacing: 15
-                                    anchors.left: parent.left
-                                    anchors.leftMargin: 15
-                                    anchors.verticalCenter: parent.verticalCenter
-                                    Image {
-                                        source: "../assets/icons/keyboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                                        sourceSize: Qt.size(20, 20)
-                                        fillMode: Image.PreserveAspectFit
-                                    }
-                                    Text {
-                                        text: "Macro"
-                                        font.pixelSize: 15
-                                        color: "white"
-                                        anchors.verticalCenter: parent.verticalCenter
-                                    }
+                            Layout.fillWidth: true; Layout.preferredHeight: 55
+                            onClicked: mainWindow.tela = "../qml/ConfigMacro.qml"
+                            background: Rectangle { color: currentTab === 3 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 3 ? "transparent" : "#1e2c3a"; border.width: 1 }
+                            contentItem: Item { anchors.fill: parent
+                                Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
+                                    Image { source: "../assets/icons/keyboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"; sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.verticalCenter: parent.verticalCenter }
+                                    Text { text: "Macro"; font.pixelSize: 15; font.bold: currentTab === 3; color: "white"; anchors.verticalCenter: parent.verticalCenter }
                                 }
                             }
                         }
 
-                        // Botão Account
+                        // 4: ACCOUNT
                         Button {
-                            Layout.fillWidth: true
-                            Layout.preferredHeight: 55
-                            onClicked: currentTab = 4
-                            background: Rectangle {
-                                color: currentTab === 4 ? "#64a1fb" : "#111821"
-                                radius: 12
-                                border.color: currentTab === 4 ? "transparent" : "#1e2c3a"
-                                border.width: 1
-                            }
-                            contentItem: Item {
-                                anchors.fill: parent
-                                Row {
-                                    spacing: 15
-                                    anchors.left: parent.left
-                                    anchors.leftMargin: 15
-                                    anchors.verticalCenter: parent.verticalCenter
-                                    Image {
-                                        source: "../assets/icons/person_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"
-                                        sourceSize: Qt.size(20, 20)
-                                        fillMode: Image.PreserveAspectFit
-                                    }
-                                    Text {
-                                        text: "Account"
-                                        font.pixelSize: 15
-                                        color: "white"
-                                        anchors.verticalCenter: parent.verticalCenter
-                                    }
+                            Layout.fillWidth: true; Layout.preferredHeight: 55
+                            onClicked: mainWindow.tela = "../qml/ConfigAccount.qml"
+                            background: Rectangle { color: currentTab === 4 ? "#64a1fb" : "#111821"; radius: 12; border.color: currentTab === 4 ? "transparent" : "#1e2c3a"; border.width: 1 }
+                            contentItem: Item { anchors.fill: parent
+                                Row { spacing: 15; anchors.left: parent.left; anchors.leftMargin: 15; anchors.verticalCenter: parent.verticalCenter
+                                    Image { source: "../assets/icons/person_30dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.svg"; sourceSize: Qt.size(20, 20); fillMode: Image.PreserveAspectFit; mipmap: true; anchors.verticalCenter: parent.verticalCenter }
+                                    Text { text: "Account"; font.pixelSize: 15; font.bold: currentTab === 4; color: "white"; anchors.verticalCenter: parent.verticalCenter }
                                 }
                             }
                         }
 
-                        Item {
-                            Layout.fillHeight: true
-                        }
+                        Item { Layout.fillHeight: true }
                     }
                 }
 

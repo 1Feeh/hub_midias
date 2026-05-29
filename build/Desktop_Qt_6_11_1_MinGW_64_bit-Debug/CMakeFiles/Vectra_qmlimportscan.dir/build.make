@@ -72,15 +72,17 @@ CMakeFiles/Vectra_qmlimportscan: .qt/qml_imports/Vectra_build.cmake
 .qt/qml_imports/Vectra_build.cmake: .qt/rcc/Vectra_raw_qml_0.qrc
 .qt/qml_imports/Vectra_build.cmake: .qt/rcc/Vectra_raw_res_0.qrc
 .qt/qml_imports/Vectra_build.cmake: .qt/rcc/Vectra_raw_qml_0_extra_qmldirs.qrc
-.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
 .qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Login.qml
 .qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Home.qml
-.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml
-.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml
-.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml
-.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
-.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
-.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/CAccount.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/CConnection.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/CGamepad.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/CMacro.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/CVideo.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Friends.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Init.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
+.qt/qml_imports/Vectra_build.cmake: C:/Users/filip/Desktop/Vectra/qml/HomeScreen.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for Vectra"
 	cd /d C:\Users\filip\Desktop\Vectra && call C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmlimportscanner.exe @C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/qml_imports/Vectra_build.rsp
 

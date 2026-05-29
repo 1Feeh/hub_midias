@@ -162,15 +162,15 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 124,
+                            "line": 123,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 44,
+                            "column": 64,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 126,
+                            "line": 124,
                             "message": "Cannot access value for name topTab"
                         },
                         {
@@ -178,23 +178,23 @@
                             "column": 49,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 131,
+                            "line": 127,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
+                            "column": 76,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 132,
+                            "line": 127,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 55,
+                            "column": 133,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 134,
+                            "line": 127,
                             "message": ""
                         },
                         {
@@ -202,12 +202,52 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 140,
+                            "line": 132,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
+                            "column": 64,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 133,
+                            "message": "Cannot access value for name topTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 49,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 133,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 141,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 64,
                             "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 142,
@@ -218,63 +258,111 @@
                             "column": 49,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 147,
+                            "line": 145,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
+                            "column": 76,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 148,
+                            "line": 145,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 55,
+                            "column": 133,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 150,
+                            "line": 145,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 44,
+                            "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 156,
+                            "line": 155,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 44,
+                            "column": 60,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 158,
-                            "message": "Cannot access value for name topTab"
+                            "line": 156,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 156,
+                            "message": "Cannot access value for name currentTab"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 49,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 157,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 158,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 158,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 142,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 163,
+                            "line": 159,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
+                            "column": 169,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 164,
+                            "line": 159,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 55,
+                            "column": 232,
                             "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 166,
+                            "functionName": "verticalCenter",
+                            "line": 159,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 160,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 148,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 160,
                             "message": ""
                         },
                         {
@@ -282,28 +370,116 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 175,
+                            "line": 168,
                             "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 169,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 169,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 170,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 171,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 171,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 145,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 172,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 172,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 172,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 235,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 172,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 95,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 173,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 153,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 173,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 40,
                             "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 181,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 177,
+                            "line": 182,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 47,
+                            "column": 128,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 179,
+                            "line": 182,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
+                            "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
                             "line": 183,
@@ -311,39 +487,127 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 51,
+                            "column": 66,
                             "durationMicroseconds": 0,
                             "functionName": "left",
+                            "line": 184,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 184,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 143,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 185,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 170,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 185,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 233,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 185,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 92,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 186,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 150,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
                             "line": 186,
                             "message": ""
                         },
                         {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 194,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 195,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 128,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 195,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
                             "codegenResult": 0,
-                            "column": 61,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 196,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 197,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 188,
+                            "line": 197,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 53,
+                            "column": 136,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 191,
+                            "line": 198,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 51,
+                            "column": 163,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 192,
+                            "line": 198,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 65,
+                            "column": 226,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
                             "line": 198,
@@ -351,290 +615,106 @@
                         },
                         {
                             "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
+                            "line": 199,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 148,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 199,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 208,
+                            "line": 207,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 40,
+                            "column": 60,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 210,
+                            "line": 208,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 47,
+                            "column": 128,
                             "durationMicroseconds": 0,
                             "functionName": "color",
+                            "line": 208,
+                            "message": "Cannot access value for name currentTab"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 209,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 210,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 210,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 134,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 211,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 161,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 211,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 224,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 211,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 92,
+                            "durationMicroseconds": 0,
+                            "functionName": "bold",
                             "line": 212,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 216,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 219,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 61,
+                            "column": 150,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 221,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 53,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 224,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 225,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 65,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 231,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 241,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 243,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 245,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 249,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 252,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 61,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 254,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 53,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 257,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 258,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 65,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 265,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 275,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 277,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 279,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 283,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 286,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 61,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 288,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 53,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 291,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 292,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 65,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 298,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 308,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 310,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 312,
-                            "message": "Cannot access value for name currentTab"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 316,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 319,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 61,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 321,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 53,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceSize",
-                            "line": 324,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 325,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 65,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalCenter",
-                            "line": 331,
+                            "line": 212,
                             "message": ""
                         },
                         {
@@ -642,7 +722,7 @@
                             "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 351,
+                            "line": 229,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
@@ -650,7 +730,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 373,
+                            "line": 251,
                             "message": "Could not find property \"model\"."
                         },
                         {
@@ -658,7 +738,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 382,
+                            "line": 260,
                             "message": "Cannot access value for name cbControllerType"
                         },
                         {
@@ -666,7 +746,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 385,
+                            "line": 263,
                             "message": ""
                         },
                         {
@@ -674,7 +754,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 397,
+                            "line": 275,
                             "message": "Could not find property \"model\"."
                         },
                         {
@@ -682,7 +762,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 406,
+                            "line": 284,
                             "message": "Cannot access value for name cbInputDev"
                         },
                         {
@@ -690,7 +770,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 409,
+                            "line": 287,
                             "message": ""
                         },
                         {
@@ -698,7 +778,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 421,
+                            "line": 299,
                             "message": "Could not find property \"model\"."
                         },
                         {
@@ -706,7 +786,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 430,
+                            "line": 308,
                             "message": "Cannot access value for name cbProfile"
                         },
                         {
@@ -714,7 +794,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 433,
+                            "line": 311,
                             "message": ""
                         },
                         {
@@ -722,7 +802,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 450,
+                            "line": 328,
                             "message": ""
                         },
                         {
@@ -730,7 +810,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 451,
+                            "line": 329,
                             "message": ""
                         },
                         {
@@ -738,7 +818,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 467,
+                            "line": 345,
                             "message": ""
                         },
                         {
@@ -746,7 +826,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 468,
+                            "line": 346,
                             "message": ""
                         },
                         {
@@ -754,7 +834,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 483,
+                            "line": 361,
                             "message": ""
                         },
                         {
@@ -762,7 +842,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 484,
+                            "line": 362,
                             "message": ""
                         },
                         {
@@ -770,7 +850,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "policy",
-                            "line": 495,
+                            "line": 373,
                             "message": "Could not find property \"policy\"."
                         },
                         {
@@ -778,7 +858,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "policy",
-                            "line": 496,
+                            "line": 374,
                             "message": "Could not find property \"policy\"."
                         },
                         {
@@ -786,7 +866,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 499,
+                            "line": 377,
                             "message": "Cannot retrieve a non-object type by ID: scrollView"
                         },
                         {
@@ -794,7 +874,7 @@
                             "column": 37,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 500,
+                            "line": 378,
                             "message": "Cannot retrieve a non-object type by ID: scrollView"
                         },
                         {
@@ -802,7 +882,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 504,
+                            "line": 382,
                             "message": ""
                         },
                         {
@@ -810,7 +890,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 523,
+                            "line": 401,
                             "message": ""
                         },
                         {
@@ -818,23 +898,175 @@
                             "column": 71,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
+                            "line": 420,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 425,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 426,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 435,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 440,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 441,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 450,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 455,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 456,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 465,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 470,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 471,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 480,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 485,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 486,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 59,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 503,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 522,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 527,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 528,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 537,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
                             "line": 542,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 547,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 548,
+                            "line": 543,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -842,23 +1074,23 @@
                             "column": 71,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
+                            "line": 552,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
                             "line": 557,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 562,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 563,
+                            "line": 558,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -866,175 +1098,23 @@
                             "column": 71,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
+                            "line": 567,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
                             "line": 572,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 577,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 578,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 587,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 592,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 593,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 602,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 607,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 608,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 625,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 644,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 649,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 650,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 659,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 664,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 665,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 674,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 679,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 680,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 689,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 694,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 695,
+                            "line": 573,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1042,7 +1122,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 713,
+                            "line": 591,
                             "message": ""
                         },
                         {
@@ -1050,7 +1130,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "sourceComponent",
-                            "line": 719,
+                            "line": 597,
                             "message": ""
                         },
                         {
@@ -1058,7 +1138,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 720,
+                            "line": 598,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1066,7 +1146,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "sourceComponent",
-                            "line": 728,
+                            "line": 606,
                             "message": ""
                         },
                         {
@@ -1074,7 +1154,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 729,
+                            "line": 607,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1082,7 +1162,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "sourceComponent",
-                            "line": 742,
+                            "line": 620,
                             "message": ""
                         },
                         {
@@ -1090,7 +1170,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 743,
+                            "line": 621,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1098,7 +1178,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "sourceComponent",
-                            "line": 752,
+                            "line": 630,
                             "message": ""
                         },
                         {
@@ -1106,7 +1186,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 753,
+                            "line": 631,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1114,7 +1194,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "sourceComponent",
-                            "line": 767,
+                            "line": 645,
                             "message": ""
                         },
                         {
@@ -1122,7 +1202,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 768,
+                            "line": 646,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1130,7 +1210,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "sourceComponent",
-                            "line": 776,
+                            "line": 654,
                             "message": ""
                         },
                         {
@@ -1138,7 +1218,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 777,
+                            "line": 655,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1146,7 +1226,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 790,
+                            "line": 668,
                             "message": ""
                         },
                         {
@@ -1154,7 +1234,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 792,
+                            "line": 670,
                             "message": ""
                         },
                         {
@@ -1162,7 +1242,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 797,
+                            "line": 675,
                             "message": ""
                         },
                         {
@@ -1170,7 +1250,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 811,
+                            "line": 689,
                             "message": ""
                         },
                         {
@@ -1178,7 +1258,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 826,
+                            "line": 704,
                             "message": ""
                         },
                         {
@@ -1186,7 +1266,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 833,
+                            "line": 711,
                             "message": ""
                         },
                         {
@@ -1194,7 +1274,7 @@
                             "column": 73,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 840,
+                            "line": 718,
                             "message": "Could not find property \"verticalCenter\"."
                         },
                         {
@@ -1202,7 +1282,7 @@
                             "column": 73,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 846,
+                            "line": 724,
                             "message": ""
                         },
                         {
@@ -1210,7 +1290,7 @@
                             "column": 73,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 854,
+                            "line": 732,
                             "message": "Could not find property \"verticalCenter\"."
                         },
                         {
@@ -1218,7 +1298,7 @@
                             "column": 73,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 860,
+                            "line": 738,
                             "message": ""
                         },
                         {
@@ -1226,7 +1306,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 882,
+                            "line": 760,
                             "message": ""
                         },
                         {
@@ -1234,23 +1314,175 @@
                             "column": 71,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
+                            "line": 779,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 784,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 785,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 794,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 799,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 800,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 809,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 814,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 815,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 824,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 829,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 830,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 59,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 847,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 866,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 871,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 872,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 881,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 886,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 887,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 896,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
                             "line": 901,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 906,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 907,
+                            "line": 902,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
@@ -1258,207 +1490,55 @@
                             "column": 71,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
+                            "line": 911,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
                             "line": 916,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 921,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
-                            "line": 922,
+                            "line": 917,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 71,
+                            "column": 54,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 931,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 936,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 937,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 946,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 951,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
+                            "functionName": "horizontalAlignment",
                             "line": 952,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 59,
+                            "column": 52,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
+                            "functionName": "verticalAlignment",
+                            "line": 953,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
                             "line": 969,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 988,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 993,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 994,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 1003,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 1008,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 1009,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 1018,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 1023,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 1024,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 71,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 1033,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 70,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 1038,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 1039,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml)::item with type QObject does not have a property currentKey for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 54,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 1074,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 1075,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 54,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 1091,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 52,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalAlignment",
-                            "line": 1092,
+                            "line": 970,
                             "message": ""
                         }
                     ],

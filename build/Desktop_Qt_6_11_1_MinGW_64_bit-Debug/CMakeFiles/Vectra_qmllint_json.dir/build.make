@@ -66,15 +66,17 @@ include CMakeFiles/Vectra_qmllint_json.dir/compiler_depend.make
 include CMakeFiles/Vectra_qmllint_json.dir/progress.make
 
 CMakeFiles/Vectra_qmllint_json: C:/Qt/6.11.1/mingw_64/bin/qmllint.exe
-CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
 CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Login.qml
 CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Home.qml
-CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigAccount.qml
-CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigConnection.qml
-CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigGamepad.qml
-CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml
-CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/ConfigVideo.qml
-CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Homeaddfriends.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/CAccount.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/CConnection.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/CGamepad.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/CMacro.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/CVideo.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Friends.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Init.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/Colors.qml
+CMakeFiles/Vectra_qmllint_json: C:/Users/filip/Desktop/Vectra/qml/HomeScreen.qml
 CMakeFiles/Vectra_qmllint_json: .rcc/qmllint/Vectra_json.rsp
 	cd /d C:\Users\filip\Desktop\Vectra && call C:\Users\filip\Desktop\Vectra\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/qmllint.exe @C:/Users/filip/Desktop/Vectra/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmllint/Vectra_json.rsp
 

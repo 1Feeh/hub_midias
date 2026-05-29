@@ -575,26 +575,26 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 53,
+                            "column": 134,
                             "durationMicroseconds": 0,
                             "functionName": "sourceSize",
-                            "line": 136,
+                            "line": 134,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 80,
+                            "column": 161,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 136,
+                            "line": 134,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 143,
+                            "column": 224,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 136,
+                            "line": 134,
                             "message": ""
                         },
                         {
@@ -602,7 +602,7 @@
                             "column": 92,
                             "durationMicroseconds": 0,
                             "functionName": "bold",
-                            "line": 138,
+                            "line": 135,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
@@ -610,7 +610,7 @@
                             "column": 150,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 138,
+                            "line": 135,
                             "message": ""
                         },
                         {
@@ -618,7 +618,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 154,
+                            "line": 151,
                             "message": ""
                         },
                         {
@@ -626,7 +626,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 158,
+                            "line": 155,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
@@ -634,7 +634,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 161,
+                            "line": 158,
                             "message": ""
                         },
                         {
@@ -642,7 +642,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 182,
+                            "line": 179,
                             "message": "Cannot load property actionText from QQuickItem::parent with type QQuickItem."
                         },
                         {
@@ -650,7 +650,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 181,
+                            "line": 178,
                             "message": ""
                         },
                         {
@@ -658,7 +658,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 200,
+                            "line": 197,
                             "message": ""
                         },
                         {
@@ -666,7 +666,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "onFocusChanged",
-                            "line": 250,
+                            "line": 247,
                             "message": ""
                         },
                         {
@@ -674,7 +674,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 201,
+                            "line": 198,
                             "message": ""
                         },
                         {
@@ -682,7 +682,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 202,
+                            "line": 199,
                             "message": ""
                         },
                         {
@@ -690,7 +690,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 206,
+                            "line": 203,
                             "message": "Cannot load property shortcutText from QQuickItem::parent with type QQuickItem."
                         },
                         {
@@ -698,7 +698,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 207,
+                            "line": 204,
                             "message": ""
                         },
                         {
@@ -706,7 +706,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 205,
+                            "line": 202,
                             "message": ""
                         },
                         {
@@ -714,7 +714,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 214,
+                            "line": 211,
                             "message": ""
                         },
                         {
@@ -722,7 +722,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 213,
+                            "line": 210,
                             "message": ""
                         },
                         {
@@ -730,7 +730,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "onPressed",
-                            "line": 220,
+                            "line": 217,
                             "message": "Type QQuickItem::parent with type QQuickItem does not have a property shortcutText for writing"
                         },
                         {
@@ -738,8 +738,56 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "onPressed",
-                            "line": 220,
+                            "line": 217,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 257,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 95,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 257,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml)::item with type QObject does not have a property actionText for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 258,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 95,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 258,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml)::item with type QObject does not have a property actionText for writing"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 259,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 95,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoaded",
+                            "line": 259,
+                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml)::item with type QObject does not have a property actionText for writing"
                         },
                         {
                             "codegenResult": 0,
@@ -787,54 +835,6 @@
                             "durationMicroseconds": 0,
                             "functionName": "onLoaded",
                             "line": 262,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml)::item with type QObject does not have a property actionText for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 263,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 95,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 263,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml)::item with type QObject does not have a property actionText for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 264,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 95,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 264,
-                            "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml)::item with type QObject does not have a property actionText for writing"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourceComponent",
-                            "line": 265,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 95,
-                            "durationMicroseconds": 0,
-                            "functionName": "onLoaded",
-                            "line": 265,
                             "message": "Type (component in C:/Users/filip/Desktop/Vectra/qml/ConfigMacro.qml)::item with type QObject does not have a property actionText for writing"
                         },
                         {
@@ -842,7 +842,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 269,
+                            "line": 266,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
@@ -850,7 +850,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 270,
+                            "line": 267,
                             "message": "Cannot access value for name currentTab"
                         },
                         {
@@ -858,7 +858,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 273,
+                            "line": 270,
                             "message": ""
                         }
                     ],

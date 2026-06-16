@@ -7,6 +7,7 @@
 int main(int argc, char *argv[])
 {
     //qputenv("QSG_RHI_BACKEND", "vulkan");// muda a api de renderizacao
+
     QGuiApplication app(argc, argv);//2 passa or argumentos/comandos de entrada ou de inicializacao
     QQmlApplicationEngine engine; //2 estancia o objeto
 

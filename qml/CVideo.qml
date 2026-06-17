@@ -30,6 +30,7 @@ ScrollView {
         }
         Item { width: parent.width; height: 10 }
 
+        /*
         //Switch ---------------
         Rectangle{
             width: parent.width - 10
@@ -100,11 +101,14 @@ ScrollView {
                 }
             }
         }
+        */
 
         //ComboBox ---------------
+
+        //Resolucao
         Rectangle {
             width: parent.width - 10
-            height: Math.max(60, row3.implicitHeight + 20)
+            height: Math.max(60, row1.implicitHeight + 20)
             color: Colors.medium_blue
             anchors.horizontalCenter: parent.horizontalCenter
             radius: 10
@@ -112,7 +116,7 @@ ScrollView {
             border.color: Colors.dark_blue
 
             RowLayout {
-                id: row3
+                id: row1
                 width: parent.width
                 anchors.verticalCenter: parent.verticalCenter
 
@@ -122,21 +126,81 @@ ScrollView {
                     Layout.rightMargin: 20
                     Layout.maximumWidth: 400
                     wrapMode: Text.WordWrap
-                    text: qsTr("Primeira config de video para teste de quebra de linha e testando ver se nao vai dar pau com o row layout nessa budega")
+                    text: qsTr("Resolucao de exibicao")
                     color: "white"
                     font.pixelSize: 15
                 }
 
                 ComboBox {
+                    contentItem: Text {
+                        text: parent.displayText
+                        color: "black"
+                        verticalAlignment: Text.AlignVCenter
+                        leftPadding: 10
+                    }
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     Layout.rightMargin: 10
                     model: ["720p", "1080p", "1440p", "4K"]
-                    onActivated: console.log(currentText)
+                    onActivated: {
+                        console.log(currentText)
+                        if (currentIndex === 0) Controller.setResolucao(1280, 720)
+                        if (currentIndex === 1) Controller.setResolucao(1920, 1080)
+                        if (currentIndex === 2) Controller.setResolucao(2560, 1440)
+                    }
                 }
             }
         }
 
-        //TextField ---------------
+        //FPS transmissao
+        Rectangle {
+            width: parent.width - 10
+            height: Math.max(60, row2.implicitHeight + 20)
+            color: Colors.medium_blue
+            anchors.horizontalCenter: parent.horizontalCenter
+            radius: 10
+            border.width: 1
+            border.color: Colors.dark_blue
+
+            RowLayout {
+                id: row2
+                width: parent.width
+                anchors.verticalCenter: parent.verticalCenter
+
+                Text {
+                    Layout.fillWidth: true  // ocupa todo espaco que sobrar
+                    Layout.leftMargin: 10
+                    Layout.rightMargin: 20
+                    Layout.maximumWidth: 400
+                    wrapMode: Text.WordWrap
+                    text: qsTr("FPS transmissao")
+                    color: "white"
+                    font.pixelSize: 15
+                }
+
+                ComboBox {
+                    contentItem: Text {
+                        text: parent.displayText
+                        color: "black"
+                        verticalAlignment: Text.AlignVCenter
+                        leftPadding: 10
+                    }
+                    Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
+                    Layout.rightMargin: 10
+                    model: ["30 FPS", "60 FPS", "120 FPS"]
+                    onActivated: {
+                        console.log(currentText)
+                        if (currentIndex === 0) Controller.setFps(30)
+                        if (currentIndex === 1) Controller.setFps(60)
+                        if (currentIndex === 2) Controller.setFps(120)
+                    }
+                }
+            }
+        }
+
+
+
+        /*
+          //TextField ---------------
         Rectangle{
             width: parent.width - 10
             height: Math.max(60, row4.implicitHeight + 20)
@@ -200,5 +264,6 @@ ScrollView {
                 }
             }
         }
+        */
     }
 }

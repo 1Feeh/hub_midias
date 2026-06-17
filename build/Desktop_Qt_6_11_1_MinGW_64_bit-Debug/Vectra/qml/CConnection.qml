@@ -30,6 +30,54 @@ ScrollView {
         }
         Item { width: parent.width; height: 10 }
 
+        //bitrate transmissao
+        Rectangle {
+            width: parent.width - 10
+            height: Math.max(60, row3.implicitHeight + 20)
+            color: Colors.medium_blue
+            anchors.horizontalCenter: parent.horizontalCenter
+            radius: 10
+            border.width: 1
+            border.color: Colors.dark_blue
+
+            RowLayout {
+                id: row3
+                width: parent.width
+                anchors.verticalCenter: parent.verticalCenter
+
+                Text {
+                    Layout.fillWidth: true  // ocupa todo espaco que sobrar
+                    Layout.leftMargin: 10
+                    Layout.rightMargin: 20
+                    Layout.maximumWidth: 400
+                    wrapMode: Text.WordWrap
+                    text: qsTr("bitrate da transmissao")
+                    color: "white"
+                    font.pixelSize: 15
+                }
+
+                ComboBox {
+                    contentItem: Text {
+                        text: parent.displayText
+                        color: "black"
+                        verticalAlignment: Text.AlignVCenter
+                        leftPadding: 10
+                    }
+                    Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
+                    Layout.rightMargin: 10
+                    model: ["Baixo (5 Mbps)", "Médio (10 Mbps)", "Alto (20 Mbps)", "Ultra (50 Mbps)"]
+                    onActivated: {
+                        console.log(currentText)
+                        if (currentIndex === 0) Controller.setBitrate(5000)
+                        if (currentIndex === 1) Controller.setBitrate(10000)
+                        if (currentIndex === 2) Controller.setBitrate(20000)
+                        if (currentIndex === 3) Controller.setBitrate(50000)
+                    }
+                }
+            }
+        }
+
+        /*
         //Switch ---------------
         Rectangle{
             width: parent.width - 10
@@ -200,5 +248,6 @@ ScrollView {
                 }
             }
         }
+    */
     }
 }

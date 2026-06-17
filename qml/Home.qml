@@ -121,6 +121,23 @@ Item {
                     id: colula
                     anchors.fill: parent
                     spacing: 5
+                    Text {
+                        id: text_amigos
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: qsTr("Configuracoes")
+                        color: "white"; font.pixelSize: 20; font.bold: false;
+                    }
+                    Item { // espassador
+                        width: parent.width
+                        height: 10
+                    }
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 1
+                        color: "white"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                    }
+
                     //config video
                     Rectangle{
                         width: parent.width - 20
@@ -344,6 +361,24 @@ Item {
                     id: colula
                     anchors.fill: parent
                     spacing: 10
+
+                    /*Text {
+                        id: text_amigos
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: qsTr("Hosts")
+                        color: "white"; font.pixelSize: 20; font.bold: false;
+                    }
+                    Item { // espassador
+                        width: parent.width
+                        height: 10
+                    }
+                    Rectangle{
+                        width: parent.width - 20
+                        height: 1
+                        color: "white"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                    }*/
+
                     // textos e linhas conectados =========================================
                     Text {
                         id: conected

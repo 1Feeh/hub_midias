@@ -46,10 +46,14 @@ template <> constexpr inline auto Controller::qt_create_metaobjectdata<qt_meta_t
         "setResolucao",
         "largura",
         "altura",
+        "index",
+        "getResolucaoIndex",
         "setFps",
         "fps",
+        "getFpsIndex",
         "setBitrate",
-        "bitrate"
+        "bitrate",
+        "getBitrateIndex"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -60,17 +64,23 @@ template <> constexpr inline auto Controller::qt_create_metaobjectdata<qt_meta_t
         // Method 'desconectar'
         QtMocHelpers::MethodData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
         // Method 'setResolucao'
-        QtMocHelpers::MethodData<void(int, int)>(5, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::Int, 6 }, { QMetaType::Int, 7 },
+        QtMocHelpers::MethodData<void(int, int, int)>(5, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 6 }, { QMetaType::Int, 7 }, { QMetaType::Int, 8 },
         }}),
+        // Method 'getResolucaoIndex'
+        QtMocHelpers::MethodData<int()>(9, 2, QMC::AccessPublic, QMetaType::Int),
         // Method 'setFps'
-        QtMocHelpers::MethodData<void(int)>(8, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::Int, 9 },
+        QtMocHelpers::MethodData<void(int, int)>(10, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 11 }, { QMetaType::Int, 8 },
         }}),
+        // Method 'getFpsIndex'
+        QtMocHelpers::MethodData<int()>(12, 2, QMC::AccessPublic, QMetaType::Int),
         // Method 'setBitrate'
-        QtMocHelpers::MethodData<void(int)>(10, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::Int, 11 },
+        QtMocHelpers::MethodData<void(int, int)>(13, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 14 }, { QMetaType::Int, 8 },
         }}),
+        // Method 'getBitrateIndex'
+        QtMocHelpers::MethodData<int()>(15, 2, QMC::AccessPublic, QMetaType::Int),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -96,9 +106,15 @@ void Controller::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->conectar((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 1: _t->desconectar(); break;
-        case 2: _t->setResolucao((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
-        case 3: _t->setFps((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 4: _t->setBitrate((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 2: _t->setResolucao((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[3]))); break;
+        case 3: { int _r = _t->getResolucaoIndex();
+            if (_a[0]) *reinterpret_cast<int*>(_a[0]) = std::move(_r); }  break;
+        case 4: _t->setFps((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
+        case 5: { int _r = _t->getFpsIndex();
+            if (_a[0]) *reinterpret_cast<int*>(_a[0]) = std::move(_r); }  break;
+        case 6: _t->setBitrate((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
+        case 7: { int _r = _t->getBitrateIndex();
+            if (_a[0]) *reinterpret_cast<int*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     }
@@ -123,14 +139,14 @@ int Controller::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 8;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 5;
+        _id -= 8;
     }
     return _id;
 }

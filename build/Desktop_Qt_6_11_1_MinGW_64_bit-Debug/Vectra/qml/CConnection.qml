@@ -66,12 +66,15 @@ ScrollView {
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     Layout.rightMargin: 10
                     model: ["Baixo (5 Mbps)", "Médio (10 Mbps)", "Alto (20 Mbps)", "Ultra (50 Mbps)"]
+                    Component.onCompleted: {
+                        currentIndex = Controller.getBitrateIndex()  // restaura
+                    }
+
                     onActivated: {
-                        console.log(currentText)
-                        if (currentIndex === 0) Controller.setBitrate(5000)
-                        if (currentIndex === 1) Controller.setBitrate(10000)
-                        if (currentIndex === 2) Controller.setBitrate(20000)
-                        if (currentIndex === 3) Controller.setBitrate(50000)
+                        if (currentIndex === 0) Controller.setBitrate(5000, 0)
+                        if (currentIndex === 1) Controller.setBitrate(10000, 1)
+                        if (currentIndex === 2) Controller.setBitrate(20000, 2)
+                        if (currentIndex === 3) Controller.setBitrate(50000, 3)
                     }
                 }
             }

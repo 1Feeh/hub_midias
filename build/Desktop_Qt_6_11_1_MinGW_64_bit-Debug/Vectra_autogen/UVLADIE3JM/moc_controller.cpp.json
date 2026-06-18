@@ -34,12 +34,23 @@
                         {
                             "name": "altura",
                             "type": "int"
+                        },
+                        {
+                            "name": "index",
+                            "type": "int"
                         }
                     ],
                     "index": 2,
-                    "lineNumber": 28,
+                    "lineNumber": 29,
                     "name": "setResolucao",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 30,
+                    "name": "getResolucaoIndex",
+                    "returnType": "int"
                 },
                 {
                     "access": "public",
@@ -47,12 +58,23 @@
                         {
                             "name": "fps",
                             "type": "int"
+                        },
+                        {
+                            "name": "index",
+                            "type": "int"
                         }
                     ],
-                    "index": 3,
-                    "lineNumber": 29,
+                    "index": 4,
+                    "lineNumber": 32,
                     "name": "setFps",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 33,
+                    "name": "getFpsIndex",
+                    "returnType": "int"
                 },
                 {
                     "access": "public",
@@ -60,12 +82,23 @@
                         {
                             "name": "bitrate",
                             "type": "int"
+                        },
+                        {
+                            "name": "index",
+                            "type": "int"
                         }
                     ],
-                    "index": 4,
-                    "lineNumber": 30,
+                    "index": 6,
+                    "lineNumber": 35,
                     "name": "setBitrate",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 36,
+                    "name": "getBitrateIndex",
+                    "returnType": "int"
                 }
             ],
             "object": true,

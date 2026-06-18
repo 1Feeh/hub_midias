@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 6000,
+                            "durationMicroseconds": 7000,
                             "functionName": "color",
                             "line": 37,
                             "message": ""
@@ -154,7 +154,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "onActivated",
-                            "line": 69,
+                            "line": 73,
                             "message": "Could not find signal \"activated\"."
                         },
                         {
@@ -180,6 +180,14 @@
                             "functionName": "alignment",
                             "line": 66,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 69,
+                            "message": "Cannot access value for name Controller"
                         }
                     ],
                     "filePath": "C:/Users/filip/Desktop/Vectra/qml/CConnection.qml"

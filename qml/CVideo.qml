@@ -8,8 +8,6 @@ ScrollView {
     contentHeight: coluna.height + 10  // altura do conteudo interno
     ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
 
-
-
     //Modelo de botoes a serem ciados e usados/acessados ======================================
     Column{
         id: coluna
@@ -105,7 +103,7 @@ ScrollView {
 
         //ComboBox ---------------
 
-        //Resolucao
+        //Resolucao transmissao
         Rectangle {
             width: parent.width - 10
             height: Math.max(60, row1.implicitHeight + 20)
@@ -121,7 +119,7 @@ ScrollView {
                 anchors.verticalCenter: parent.verticalCenter
 
                 Text {
-                    Layout.fillWidth: true  // ocupa todo espaco que sobrar
+                    Layout.fillWidth: true
                     Layout.leftMargin: 10
                     Layout.rightMargin: 20
                     Layout.maximumWidth: 400
@@ -141,11 +139,14 @@ ScrollView {
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     Layout.rightMargin: 10
                     model: ["720p", "1080p", "1440p", "4K"]
+                    Component.onCompleted: {
+                        currentIndex = Controller.getResolucaoIndex()  // restaura
+                    }
                     onActivated: {
-                        console.log(currentText)
-                        if (currentIndex === 0) Controller.setResolucao(1280, 720)
-                        if (currentIndex === 1) Controller.setResolucao(1920, 1080)
-                        if (currentIndex === 2) Controller.setResolucao(2560, 1440)
+                        if (currentIndex === 0) Controller.setResolucao(1280, 720, 0)
+                        if (currentIndex === 1) Controller.setResolucao(1920, 1080, 1)
+                        if (currentIndex === 2) Controller.setResolucao(2560, 1440, 2)
+                        if (currentIndex === 3) Controller.setResolucao(3840, 2160, 3)
                     }
                 }
             }
@@ -187,17 +188,18 @@ ScrollView {
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     Layout.rightMargin: 10
                     model: ["30 FPS", "60 FPS", "120 FPS"]
+                    Component.onCompleted: {
+                        currentIndex = Controller.getFpsIndex()  // restaura
+                    }
+
                     onActivated: {
-                        console.log(currentText)
-                        if (currentIndex === 0) Controller.setFps(30)
-                        if (currentIndex === 1) Controller.setFps(60)
-                        if (currentIndex === 2) Controller.setFps(120)
+                        if (currentIndex === 0) Controller.setFps(30, 0)
+                        if (currentIndex === 1) Controller.setFps(60, 1)
+                        if (currentIndex === 2) Controller.setFps(120, 2)
                     }
                 }
             }
         }
-
-
 
         /*
           //TextField ---------------

@@ -24,18 +24,31 @@ void Controller::desconectar() {
     }
 }
 
-void Controller::setResolucao(int largura, int altura) {
+void Controller::setResolucao(int largura, int altura, int index) {
     m_resolucao.m_largura = largura;
     m_resolucao.m_altura  = altura;
-    std::cout<<"carregou resolucao"<<std::endl;
+    m_resolucaoIndex      = index;
+}
+int Controller::getResolucaoIndex() {
+    return m_resolucaoIndex;
 }
 
-void Controller::setFps(int fps) {
+void Controller::setFps(int fps, int index) {
     m_fps.m_fps = fps;
-    std::cout<<"carregou fps"<<std::endl;
+    m_fpsIndex  = index;
+    std::cout << "carregou fps: " << fps << std::endl;
 }
 
-void Controller::setBitrate(int bitrate) {
+int Controller::getFpsIndex() {
+    return m_fpsIndex;
+}
+
+void Controller::setBitrate(int bitrate, int index) {
     m_bitrate.m_bitrate = bitrate;
-    std::cout<<"carregou bitrate"<<std::endl;
+    m_bitrateIndex = index;
+    std::cout << "carregou bitrate: " << bitrate << std::endl;
+}
+
+int Controller::getBitrateIndex() {
+    return m_bitrateIndex;
 }

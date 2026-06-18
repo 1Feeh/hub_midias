@@ -42,7 +42,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 16,
+                            "line": 14,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 22,
+                            "line": 20,
                             "message": ""
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 26,
+                            "line": 24,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 29,
+                            "line": 27,
                             "message": ""
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 31,
+                            "line": 29,
                             "message": ""
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 110,
+                            "line": 108,
                             "message": ""
                         },
                         {
@@ -90,7 +90,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 111,
+                            "line": 109,
                             "message": ""
                         },
                         {
@@ -98,7 +98,7 @@
                             "column": 20,
                             "durationMicroseconds": 5000,
                             "functionName": "color",
-                            "line": 112,
+                            "line": 110,
                             "message": ""
                         },
                         {
@@ -106,7 +106,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 113,
+                            "line": 111,
                             "message": ""
                         },
                         {
@@ -114,7 +114,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 116,
+                            "line": 114,
                             "message": ""
                         },
                         {
@@ -122,7 +122,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 120,
+                            "line": 118,
                             "message": ""
                         },
                         {
@@ -130,7 +130,7 @@
                             "column": 41,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 121,
+                            "line": 119,
                             "message": ""
                         },
                         {
@@ -138,7 +138,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 128,
+                            "line": 126,
                             "message": ""
                         },
                         {
@@ -146,7 +146,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 143,
+                            "line": 141,
                             "message": "Could not find property \"model\"."
                         },
                         {
@@ -154,7 +154,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "onActivated",
-                            "line": 144,
+                            "line": 145,
                             "message": "Could not find signal \"activated\"."
                         },
                         {
@@ -162,7 +162,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 136,
+                            "line": 134,
                             "message": "Cannot load property displayText from (component in C:/Users/filip/Desktop/Vectra/qml/CVideo.qml)::parent with type QQuickItem."
                         },
                         {
@@ -170,7 +170,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 138,
+                            "line": 136,
                             "message": ""
                         },
                         {
@@ -178,15 +178,23 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 141,
+                            "line": 139,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 142,
+                            "message": "Cannot access value for name Controller"
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 156,
+                            "line": 157,
                             "message": ""
                         },
                         {
@@ -194,7 +202,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 157,
+                            "line": 158,
                             "message": ""
                         },
                         {
@@ -202,7 +210,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 158,
+                            "line": 159,
                             "message": ""
                         },
                         {
@@ -210,7 +218,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 159,
+                            "line": 160,
                             "message": ""
                         },
                         {
@@ -218,7 +226,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 162,
+                            "line": 163,
                             "message": ""
                         },
                         {
@@ -226,7 +234,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 166,
+                            "line": 167,
                             "message": ""
                         },
                         {
@@ -234,7 +242,7 @@
                             "column": 41,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 167,
+                            "line": 168,
                             "message": ""
                         },
                         {
@@ -242,7 +250,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 174,
+                            "line": 175,
                             "message": ""
                         },
                         {
@@ -250,7 +258,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 189,
+                            "line": 190,
                             "message": "Could not find property \"model\"."
                         },
                         {
@@ -258,7 +266,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "onActivated",
-                            "line": 190,
+                            "line": 195,
                             "message": "Could not find signal \"activated\"."
                         },
                         {
@@ -266,7 +274,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 182,
+                            "line": 183,
                             "message": "Cannot load property displayText from (component in C:/Users/filip/Desktop/Vectra/qml/CVideo.qml)::parent with type QQuickItem."
                         },
                         {
@@ -274,7 +282,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 184,
+                            "line": 185,
                             "message": ""
                         },
                         {
@@ -282,8 +290,16 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 187,
+                            "line": 188,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 191,
+                            "message": "Cannot access value for name Controller"
                         }
                     ],
                     "filePath": "C:/Users/filip/Desktop/Vectra/qml/CVideo.qml"

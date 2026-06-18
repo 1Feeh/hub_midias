@@ -42,7 +42,14 @@ template <> constexpr inline auto Controller::qt_create_metaobjectdata<qt_meta_t
         "conectar",
         "",
         "host",
-        "desconectar"
+        "desconectar",
+        "setResolucao",
+        "largura",
+        "altura",
+        "setFps",
+        "fps",
+        "setBitrate",
+        "bitrate"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -52,6 +59,18 @@ template <> constexpr inline auto Controller::qt_create_metaobjectdata<qt_meta_t
         }}),
         // Method 'desconectar'
         QtMocHelpers::MethodData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
+        // Method 'setResolucao'
+        QtMocHelpers::MethodData<void(int, int)>(5, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 6 }, { QMetaType::Int, 7 },
+        }}),
+        // Method 'setFps'
+        QtMocHelpers::MethodData<void(int)>(8, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 9 },
+        }}),
+        // Method 'setBitrate'
+        QtMocHelpers::MethodData<void(int)>(10, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 11 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -77,6 +96,9 @@ void Controller::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->conectar((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 1: _t->desconectar(); break;
+        case 2: _t->setResolucao((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
+        case 3: _t->setFps((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 4: _t->setBitrate((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     }
@@ -101,14 +123,14 @@ int Controller::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 5;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 5;
     }
     return _id;
 }

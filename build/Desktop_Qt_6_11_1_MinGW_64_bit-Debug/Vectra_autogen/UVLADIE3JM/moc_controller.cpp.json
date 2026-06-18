@@ -2,7 +2,7 @@
     "classes": [
         {
             "className": "Controller",
-            "lineNumber": 10,
+            "lineNumber": 20,
             "methods": [
                 {
                     "access": "public",
@@ -13,15 +13,58 @@
                         }
                     ],
                     "index": 0,
-                    "lineNumber": 15,
+                    "lineNumber": 26,
                     "name": "conectar",
                     "returnType": "void"
                 },
                 {
                     "access": "public",
                     "index": 1,
-                    "lineNumber": 17,
+                    "lineNumber": 27,
                     "name": "desconectar",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "largura",
+                            "type": "int"
+                        },
+                        {
+                            "name": "altura",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 28,
+                    "name": "setResolucao",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "fps",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 29,
+                    "name": "setFps",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bitrate",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 30,
+                    "name": "setBitrate",
                     "returnType": "void"
                 }
             ],

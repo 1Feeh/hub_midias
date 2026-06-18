@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Ferramenta de Streaming remoto para games.</p>
+<p align="left">Ferramenta de streaming remoto para games.</p>
 
 ###
 
@@ -10,17 +10,29 @@
 
 ###
 
-<p align="left">Ferramenta de Streaming remoto para games.
-###
-###
-###
-#####</p>
+<p align="left">Ferramenta de streaming remoto focada em jogos, com funcionalidades voltadas a auxiliar o público gamer a jogar, de qualquer lugar, sua biblioteca de jogos de qualquer plataforma de desktop gaming. O ecossistema unifica o acesso aos seus launchers favoritos em uma interface minimalista e intuitiva, eliminando as configurações complexas de rede das ferramentas tradicionais do mercado.</p>
 
 ###
 
-<div align="center">
-  <img height="200" src="documents/UI/screens_assets/ilustrate/image.png"  />
+<h3 align="left">Modelos desktop</h3>
+
+###
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/image.png"  />
 </div>
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame 2.png"  />
+</div>
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame 9.png"  />
+</div>
+
+###
+
+<h3 align="left">Modelos mobile</h3>
 
 ###
 

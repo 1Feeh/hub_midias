@@ -19,7 +19,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="Vectra/documents/UI/screens_assets/ilustrate/image.png"  />
+  <img height="200" src="documents/UI/screens_assets/ilustrate/image.png"  />
 </div>
 
 ###

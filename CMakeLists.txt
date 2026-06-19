@@ -10,6 +10,7 @@ qt_standard_project_setup(REQUIRES 6.10)
 
 qt_add_executable(Vectra
     src/main.cpp
+    app.rc
 )
 
 # 5. Configura explicitamente o Colors.qml como um Singleton no CMake

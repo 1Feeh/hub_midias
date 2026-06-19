@@ -23,16 +23,48 @@
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame 2.png"  />
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame2.png"  />
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame 9.png"  />
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame9.png"  />
 </div>
 
 ###
 
-<h3 align="left">Modelos mobile</h3>
+<h3 align="left">Modelos Mobile</h3>
+
+###
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_mobile/Frame1.png"  />
+</div>
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_mobile/Frame2.png"  />
+</div>
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_mobile/Frame4.png"  />
+</div>
+
+###
+
+<h3 align="left">Modelos Tv</h3>
+
+###
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_tv/Frame1.png"  />
+</div>
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_tv/Frame2.png"  />
+</div>
+
+<div align="left">
+  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_tv/Frame4.png"  />
+</div>
 
 ###
 

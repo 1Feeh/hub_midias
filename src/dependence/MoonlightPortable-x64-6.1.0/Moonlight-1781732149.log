@@ -1,6 +1,0 @@
-00:00:00 - Qt Info: Removing old log file: "Moonlight-1779824246.log"
-00:00:00 - Qt Warning: SetProcessDpiAwarenessContext() failed: A operação foi concluída com êxito.
-Qt's default DPI awareness context is DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2. If you know what you are doing, you can overwrite this default using qt.conf (https://doc.qt.io/qt-6/highdpi.html#configuring-windows).
-00:00:00 - SDL Info (0): Compiled with SDL 2.31.0
-00:00:00 - SDL Info (0): Running with SDL 2.31.0
-00:00:00 - Qt Info: Successfully loaded translation for "pt_BR"

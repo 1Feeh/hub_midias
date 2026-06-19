@@ -3,6 +3,7 @@
 #include <QQmlContext>
 #include <iostream> //3 lib padrao do C++
 #include "controller.h"
+#include <QIcon>
 
 int main(int argc, char *argv[])
 {
@@ -23,6 +24,7 @@ int main(int argc, char *argv[])
 
     engine.loadFromModule("Vectra", "Init");
     std::cout<<"hello"<<std::endl;
+    app.setWindowIcon(QIcon(":/assets/image/vectra.ico"));
 
     return QGuiApplication::exec();
 }

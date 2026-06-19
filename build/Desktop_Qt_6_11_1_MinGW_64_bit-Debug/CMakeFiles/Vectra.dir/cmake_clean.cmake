@@ -31,6 +31,7 @@ file(REMOVE_RECURSE
   "Vectra_autogen"
   "CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/Vectra.dir/app.rc.obj"
   "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj"
   "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj.d"
   "CMakeFiles/Vectra.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0_extra_qmldirs.cpp.obj"
@@ -84,6 +85,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/Vectra.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

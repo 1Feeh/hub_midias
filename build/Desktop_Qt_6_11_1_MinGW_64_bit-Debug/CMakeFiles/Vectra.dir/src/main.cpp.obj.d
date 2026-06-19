@@ -420,4 +420,18 @@ CMakeFiles/Vectra.dir/src/main.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QObject \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QProcess \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qprocess.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QIcon \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qicon.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpixmap.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpaintdevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qrect.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qrgb.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qrgba64.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qimage.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtransform.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpolygon.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qregion.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qline.h

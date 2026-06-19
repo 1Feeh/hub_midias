@@ -431,6 +431,14 @@ Vectra_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/Vectra_autogen/mocs_compilation.cpp.s
 .PHONY : Vectra_autogen/mocs_compilation.cpp.s
 
+app.obj: app.rc.obj
+.PHONY : app.obj
+
+# target to build an object file
+app.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vectra.dir\build.make CMakeFiles/Vectra.dir/app.rc.obj
+.PHONY : app.rc.obj
+
 build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.cpp.obj
 .PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.obj
 
@@ -921,6 +929,7 @@ help:
 	@echo ... Vectra_autogen/mocs_compilation.obj
 	@echo ... Vectra_autogen/mocs_compilation.i
 	@echo ... Vectra_autogen/mocs_compilation.s
+	@echo ... app.obj
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.obj
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.i
 	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Vectra_raw_qml_0.s

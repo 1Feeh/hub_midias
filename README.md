@@ -23,11 +23,11 @@
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame2.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_desktop/Frame2.png"  />
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_desktop/Frame9.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_desktop/Frame9.png"  />
 </div>
 
 ###
@@ -37,15 +37,15 @@
 ###
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_mobile/Frame1.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_mobile/Frame1.png"  />
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_mobile/Frame2.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_mobile/Frame2.png"  />
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_mobile/Frame4.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_mobile/Frame4.png"  />
 </div>
 
 ###
@@ -55,15 +55,15 @@
 ###
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_tv/Frame1.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_tv/Frame1.png"  />
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_tv/Frame2.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_tv/Frame2.png"  />
 </div>
 
 <div align="left">
-  <img height="300" src="documents/UI/screens_assets/ilustrate/Telas_tv/Frame4.png"  />
+  <img height="300" src="documents/UI/screens_assets/Telas_tv/Frame4.png"  />
 </div>
 
 ###
